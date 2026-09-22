@@ -14,19 +14,20 @@ async def extract_resume(
     file: UploadFile = File(...),
     model: str = Query(default="claude", enum=["claude", "gpt"]),
     cache: bool = Query(default=False),
+    confidence: bool = Query(default=False),
 ):
-    # save upload to a temp file so extract() can read it
     with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
         tmp.write(await file.read())
         tmp_path = tmp.name
 
     try:
-        result = extract(tmp_path, model, cache)
+        result = extract(tmp_path, model, cache, confidence)
     finally:
         os.unlink(tmp_path)
 
     return JSONResponse({
         "data": result["data"],
+        "confidence": result.get("confidence", {}),
         "meta": {
             "model": result["model"],
             "input_tokens": result["in"],

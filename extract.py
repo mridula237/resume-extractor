@@ -27,9 +27,13 @@ IMPORTANT:
 - For missing optional fields use null, for missing lists use []"""
 
 
-def read_pdf(path: str) -> str:
-    reader = PdfReader(path)
-    return "\n".join(page.extract_text() for page in reader.pages)
+def read_file(path: str) -> str:
+    if path.endswith(".pdf"):
+        reader = PdfReader(path)
+        return "\n".join(page.extract_text() for page in reader.pages)
+    else:
+        with open(path, "r", encoding="utf-8") as f:
+            return f.read()
 
 
 def extract_claude(text: str, cache: bool = False) -> dict:
@@ -96,14 +100,39 @@ def extract_gpt(text: str, cache: bool = False) -> dict:
     }
 
 
-def extract(path: str, model: str = "claude", cache: bool = False) -> dict:
-    text = read_pdf(path)
+def add_confidence(data: dict, text: str) -> dict:
+    fields = ["name", "emails", "phones", "location", "total_years_experience",
+              "education", "employment", "skills", "certifications"]
+
+    r = gpt.chat.completions.create(
+        model=GPT_MODEL,
+        max_completion_tokens=300,
+        messages=[
+            {"role": "system", "content": "You are evaluating resume extraction quality. For each field, return a confidence score 0.0-1.0 based on how clearly it appeared in the resume. Return only JSON like {\"name\": 0.99, \"emails\": 1.0, ...}"},
+            {"role": "user", "content": f"Fields to score: {fields}\n\nResume text:\n{text[:2000]}\n\nExtracted data:\n{json.dumps(data, indent=2)[:1000]}"}
+        ],
+    )
+    raw = r.choices[0].message.content.strip()
+    if raw.startswith("```"):
+        raw = raw.split("```")[1]
+        if raw.startswith("json"):
+            raw = raw[4:]
+        raw = raw.strip()
+    return json.loads(raw)
+
+
+def extract(path: str, model: str = "claude", cache: bool = False, confidence: bool = False) -> dict:
+    text = read_file(path)
     if model == "claude":
-        return extract_claude(text, cache)
+        result = extract_claude(text, cache)
     elif model == "gpt":
-        return extract_gpt(text, cache)
+        result = extract_gpt(text, cache)
     else:
         raise ValueError(f"Unknown model: {model}. Use 'claude' or 'gpt'.")
+
+    if confidence:
+        result["confidence"] = add_confidence(result["data"], text)
+    return result
 
 
 def main():
@@ -111,12 +140,15 @@ def main():
     parser.add_argument("path", help="Path to resume PDF")
     parser.add_argument("--model", default="claude", choices=["claude", "gpt"])
     parser.add_argument("--cache", action="store_true", help="Use prompt caching for system prompt")
+    parser.add_argument("--confidence", action="store_true", help="Add per-field confidence scores")
     args = parser.parse_args()
 
-    result = extract(args.path, args.model, args.cache)
+    result = extract(args.path, args.model, args.cache, args.confidence)
     print(json.dumps(result["data"], indent=2))
-    print(f"\n# model={result['model']} in={result['in']} out={result['out']} "
-          f"latency={result['latency']:.2f}s cache_read={result['cache_read']}", flush=True)
+    if "confidence" in result:
+        print("\n# Confidence scores:")
+        print(json.dumps(result["confidence"], indent=2))
+    print(f"\n# {result['model']} | in={result['in']} out={result['out']} latency={result['latency']:.2f}s", flush=True)
 
 
 if __name__ == "__main__":

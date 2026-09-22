@@ -29,3 +29,9 @@ class Resume(BaseModel):
     skills: list[str] = []
     certifications: list[str] = []
     location: Optional[str] = None
+
+
+class ResumeWithConfidence(BaseModel):
+    model_config = ConfigDict(extra="ignore")
+    data: Resume
+    confidence: dict[str, float] = {}
