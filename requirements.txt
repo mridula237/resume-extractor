@@ -1,0 +1,7 @@
+anthropic
+openai
+fastapi
+uvicorn
+python-multipart
+pypdf
+pydantic
