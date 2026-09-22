@@ -1,0 +1,56 @@
+{
+  "name": "Grace Liu",
+  "emails": [
+    "grace.liu@email.com"
+  ],
+  "phones": [
+    "(415) 555-0137"
+  ],
+  "total_years_experience": null,
+  "education": [
+    {
+      "institution": "University of Washington",
+      "degree": "B.S. in Computer Science",
+      "year": "2019"
+    },
+    {
+      "institution": "University of Illinois \u2014 Urbana-Champaign",
+      "degree": "M.S. in Information Systems (Cloud & Data Engineering)",
+      "year": "2018"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Deloitte",
+      "title": "Cloud Engineer (Consultant)",
+      "start": "Jun 2021",
+      "end": "Aug 2024",
+      "summary": "Designed and implemented secure AWS landing zones for multi-account environments; built infrastructure with Terraform; deployed microservices to EKS using Helm and GitOps; implemented CI/CD with GitHub Actions/Jenkins including security scanning; set up observability with OpenTelemetry/Prometheus/Grafana; supported on-call/incident management and produced runbooks."
+    },
+    {
+      "company": "Goldman Sachs",
+      "title": "Associate Cloud Engineer",
+      "start": "Aug 2019",
+      "end": "May 2021",
+      "summary": "Automated provisioning/configuration for AWS services via IaC; built deployment tooling (blue/green, rollback); developed event-driven data workflows with Lambda/SQS/SNS/Step Functions; implemented security controls (encryption, KMS, secrets, least-privilege IAM); improved reliability with SLOs/SLIs and participated in change/release reviews and retrospectives."
+    }
+  ],
+  "skills": [
+    "AWS (EC2, S3, RDS, IAM, KMS, CloudWatch, CloudTrail)",
+    "EKS and Kubernetes (Helm, ConfigMaps, Secrets, deployments)",
+    "Terraform (modules, state management, CI integration)",
+    "CI/CD (GitHub Actions, Jenkins, release automation)",
+    "Python and Bash scripting",
+    "Infrastructure provisioning and automation",
+    "Networking fundamentals (VPC, subnets, security groups, routing)",
+    "Observability (OpenTelemetry, Prometheus, Grafana, log pipelines)",
+    "Security (IAM least privilege, encryption, vulnerability scanning)",
+    "Incident response and root cause analysis",
+    "Cost optimization (rightsizing, storage lifecycle policies, performance tuning)"
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect \u2013 Associate (SAA-C03) (Issued: 2023)",
+    "Kubernetes Administrator (CKA) (Issued: 2024)"
+  ],
+  "location": "San Francisco, CA 94105"
+}

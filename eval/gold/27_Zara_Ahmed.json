@@ -1,0 +1,56 @@
+{
+  "name": "Zara Ahmed",
+  "emails": [
+    "zara.ahmed@email.com"
+  ],
+  "phones": [
+    "+1 (555) 014-2234"
+  ],
+  "total_years_experience": 4,
+  "education": [
+    {
+      "institution": "University of Maryland, College Park",
+      "degree": "B.S. in Statistics",
+      "year": "May 2018"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Acme Retail Analytics",
+      "title": "Data Analyst",
+      "start": "June 2021",
+      "end": "Present",
+      "summary": "Built and maintained KPI dashboards (Tableau/Power BI), wrote complex SQL/data extracts for weekly business reviews, performed cohort and retention analysis to inform retention campaigns, collaborated with Product/Marketing on data requirements and tracking validation, and conducted data quality checks to reduce discrepancies."
+    },
+    {
+      "company": "BrightPath Financial",
+      "title": "Junior Data Analyst",
+      "start": "March 2019",
+      "end": "May 2021",
+      "summary": "Built automated SQL/spreadsheet reporting workflows to reduce manual month-end effort, cleaned/transformed datasets to improve metric accuracy, supported ad-hoc performance monitoring (variance/trend forecasting), and documented metric calculations/data definitions for transparency and auditability."
+    },
+    {
+      "company": "Northwind Health Systems",
+      "title": "Data Analyst Intern",
+      "start": "July 2018",
+      "end": "Feb 2019",
+      "summary": "Validated incoming data feeds for ETL reliability, developed preliminary visualizations/dashboards for operational KPIs, and performed exploratory data analysis to identify trends and anomalies in patient/scheduling datasets."
+    }
+  ],
+  "skills": [
+    "SQL (CTEs, window functions, query optimization, data modeling)",
+    "Data Analysis & Statistics (A/B testing, cohort analysis, regression basics, hypothesis testing)",
+    "Dashboarding (Tableau, Power BI)",
+    "Python (pandas, NumPy, basic data visualization)",
+    "Data Visualization (Matplotlib/Seaborn basics; KPI storytelling)",
+    "Data Quality & ETL (data validation, reconciliation, versioned metric logic)",
+    "Excel (advanced formulas, pivot tables, Power Query basics)",
+    "Stakeholder Communication (requirements gathering, presenting insights, documentation)"
+  ],
+  "certifications": [
+    "Google Data Analytics Professional Certificate \u2014 Google (Completed 2020)",
+    "Tableau Desktop Specialist \u2014 Tableau (Completed 2022)",
+    "Microsoft Power BI Data Analyst (PL-300) \u2014 Microsoft (Completed 2023)"
+  ],
+  "location": "New York, NY"
+}

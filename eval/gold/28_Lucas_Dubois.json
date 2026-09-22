@@ -1,0 +1,88 @@
+{
+  "name": "LU\u200bCAS DUBOIS",
+  "emails": [
+    "lucas.dubois@email.com"
+  ],
+  "phones": [
+    "+1 (415) 555-0137"
+  ],
+  "total_years_experience": 7,
+  "education": [
+    {
+      "institution": "University of Paris",
+      "degree": "M.S. in Artificial Intelligence",
+      "year": "2019"
+    },
+    {
+      "institution": "University of Lille",
+      "degree": "B.S. in Computer Science",
+      "year": "2017"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Atlas Commerce",
+      "title": "AI Engineer",
+      "start": "Jun 2021",
+      "end": "Present",
+      "summary": "Built and deployed product recommendation/ranking models; developed NLP ticket classification/routing; implemented MLOps workflows with monitoring; optimized feature stores and reduced training/inference costs; designed LLM-assisted summarization and retrieval workflows using embeddings/vector search with evaluations and A/B testing."
+    },
+    {
+      "company": "Novalis Data Systems",
+      "title": "Machine Learning Engineer",
+      "start": "Aug 2019",
+      "end": "May 2021",
+      "summary": "Trained/fine-tuned ML models for churn prediction and segmentation (improved F1); built ETL-to-model pipelines with data quality checks; implemented FastAPI + Kubernetes inference services; created evaluation frameworks and dashboards for offline metrics and online experiments."
+    },
+    {
+      "company": "HelioTech Labs",
+      "title": "AI / Data Intern (Part-time)",
+      "start": "Jan 2018",
+      "end": "Jul 2019",
+      "summary": "Assisted experimentation for computer vision and text analytics; contributed to dataset labeling and baseline models; built document clustering/search prototypes using embeddings; wrote reusable Python data-processing scripts to improve reproducibility."
+    }
+  ],
+  "skills": [
+    "Machine Learning",
+    "Classification",
+    "Ranking",
+    "Recommendation Systems",
+    "Time-series forecasting (basic)",
+    "Model evaluation",
+    "Deep Learning",
+    "NLP",
+    "Transformers",
+    "Embeddings",
+    "Fine-tuning",
+    "Prompt + retrieval workflows",
+    "Summarization",
+    "LLM evaluation",
+    "MLOps",
+    "Model training pipelines",
+    "CI/CD",
+    "Monitoring (data drift/prediction latency)",
+    "Model versioning",
+    "Scalable deployments",
+    "Python",
+    "SQL",
+    "PyTorch",
+    "NumPy",
+    "pandas",
+    "FastAPI",
+    "Docker",
+    "Kubernetes",
+    "REST/async batch inference",
+    "AWS (S3, EC2, ECS/EKS as applicable)",
+    "Airflow/Prefect-style orchestration (experience varies)",
+    "Vector databases (Pinecone/FAISS)",
+    "A/B testing",
+    "Offline/online metrics",
+    "Error analysis"
+  ],
+  "certifications": [
+    "AWS Certified Machine Learning \u2013 Specialty (MLS-C01) \u2014 2023",
+    "Google Professional Machine Learning Engineer \u2014 2022",
+    "Certified Kubernetes Administrator (CKA) \u2014 2021"
+  ],
+  "location": "San Francisco, CA (Open to relocation / remote)"
+}

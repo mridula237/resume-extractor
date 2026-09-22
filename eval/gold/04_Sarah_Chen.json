@@ -1,0 +1,60 @@
+{
+  "name": "Sarah Chen",
+  "emails": [
+    "sarah.chen@email.com"
+  ],
+  "phones": [
+    "+1 (202) 555-0147"
+  ],
+  "total_years_experience": 7,
+  "education": [
+    {
+      "institution": "University of Texas at Austin",
+      "degree": "B.S. in Computer Science",
+      "year": "2017"
+    },
+    {
+      "institution": "UCLA",
+      "degree": "M.S. in Data Science",
+      "year": "2021"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Netflix",
+      "title": "Analytics Engineer",
+      "start": "Jun 2020",
+      "end": "Aug 2024",
+      "summary": "Built and maintained ELT pipelines in dbt and SQL for global product and experimentation analytics; designed reusable metric definitions and semantic components; implemented automated data quality checks; partnered with Data Science/Experimentation on governed experiment event datasets; optimized SQL transformations for performance; developed Airflow DAGs and runbooks for ingestion/backfills; authored documentation to improve analyst onboarding."
+    },
+    {
+      "company": "Nvidia",
+      "title": "Data Analytics Engineer",
+      "start": "Sep 2017",
+      "end": "May 2020",
+      "summary": "Developed Python/SQL ingestion and transformation workflows orchestrated with Airflow; built dimensional models for reporting and ad-hoc analysis; created anomaly detection reports for telemetry drops/instrumentation issues; collaborated on event schema refinement with backward compatibility; improved query efficiency via indexing/partitioning; maintained data governance with access controls and standardized dataset naming."
+    }
+  ],
+  "skills": [
+    "dbt (models, macros, tests, documentation)",
+    "SQL (window functions, CTEs, query optimization)",
+    "Data modeling (dimensional modeling, incremental models)",
+    "ELT/ETL orchestration (Airflow, scheduling/backfills)",
+    "Python (pandas, data validation, scripting)",
+    "Data quality & monitoring (dbt tests, anomaly checks, SLA tracking)",
+    "Semantic layer / metric governance",
+    "Snowflake (warehousing, performance tuning)",
+    "BigQuery / Google Cloud (GCP-style ingestion and analytics patterns)",
+    "Experimentation & KPI instrumentation",
+    "Git (branching strategies, code reviews)",
+    "API integration (REST data ingestion)",
+    "Security & access control (role-based permissions, dataset hygiene)",
+    "BI tooling (Tableau/Looker-style dashboard enablement)",
+    "Event schema design and lineage tracking"
+  ],
+  "certifications": [
+    "Google Cloud Professional Data Engineer (issued: 2023)",
+    "dbt Fundamentals / Analytics Engineering Certification (issued: 2022)"
+  ],
+  "location": "Washington, DC"
+}

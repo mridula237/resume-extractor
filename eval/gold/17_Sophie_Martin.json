@@ -1,0 +1,67 @@
+{
+  "name": "Sophie Martin",
+  "emails": [
+    "sophie.martin@protonmail.com"
+  ],
+  "phones": [
+    "+1 (404) 555-0187"
+  ],
+  "total_years_experience": 4,
+  "education": [
+    {
+      "institution": "Carnegie Mellon University",
+      "degree": "Master of Science (M.S.), Information Security",
+      "year": "2019"
+    },
+    {
+      "institution": "Stanford University",
+      "degree": "Bachelor of Science (B.S.), Computer Science",
+      "year": "2017"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Meta",
+      "title": "Security Engineer",
+      "start": "Jun 2022",
+      "end": "Aug 2024",
+      "summary": "Led security reviews for backend services and internal tooling using threat modeling (STRIDE/LINDDUN); reduced critical vulnerability backlog by 35% via standardized SAST/DAST gating and remediation partnership; implemented cloud security guardrails for AWS/GCP; built detections for credential misuse/abnormal access patterns; partnered with incident response on root-cause analysis and hardening actions."
+    },
+    {
+      "company": "IBM",
+      "title": "Security Engineer",
+      "start": "Jan 2020",
+      "end": "May 2022",
+      "summary": "Performed application and infrastructure security assessments aligned to OWASP/NIST; conducted API-focused penetration testing and web application assessments; automated vulnerability triage workflows with Python/CLI; supported SOC operations (investigations, log analysis, detection improvements); improved secure SDLC via threat-model templates, security checklists, and engineering training."
+    },
+    {
+      "company": "IBM",
+      "title": "SECURITY ANALYST (Intern)",
+      "start": "Jun 2019",
+      "end": "Dec 2019",
+      "summary": "Assisted with vulnerability scanning and report preparation, including retesting high-severity issues; supported rule tuning and triage for alerting tools; documented procedures for handling sensitive artifacts and maintaining evidence during investigations."
+    }
+  ],
+  "skills": [
+    "Cloud Security (AWS, GCP)",
+    "Secure SDLC (threat modeling, secure design reviews)",
+    "Application Security (API security, OWASP, authz/authn)",
+    "Vulnerability Management (CVSS-based triage, remediation tracking)",
+    "SAST/DAST and Security Testing",
+    "Incident Response (root-cause analysis, forensics workflow coordination)",
+    "SIEM/SOC Support (correlation rules, alert tuning)",
+    "IAM and Access Control (least privilege, role-based access)",
+    "Logging/Monitoring and Detection Engineering",
+    "Policy-as-Code (guardrails, configuration compliance)",
+    "Encryption and Key Management concepts (KMS/HSM awareness)",
+    "Security Automation (Python/CLI, workflow scripting)",
+    "Risk Assessment and Security Reporting",
+    "OWASP Top 10 and MITRE ATT&CK mapping",
+    "Knowledge of container security principles (image scanning, runtime considerations)"
+  ],
+  "certifications": [
+    "Certified Information Systems Security Professional (CISSP) \u2014 Issued 2023",
+    "AWS Certified Security \u2013 Specialty (Security Specialty) \u2014 Issued 2022"
+  ],
+  "location": "Atlanta, GA"
+}

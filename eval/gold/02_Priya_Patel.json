@@ -1,0 +1,65 @@
+{
+  "name": "Priya Patel",
+  "emails": [
+    "priya.patel.data@gmail.com"
+  ],
+  "phones": [
+    "(310) 555-0194"
+  ],
+  "total_years_experience": null,
+  "education": [
+    {
+      "institution": "The Ohio State University",
+      "degree": "B.S. in Computer Science",
+      "year": "2019"
+    },
+    {
+      "institution": "University of Washington",
+      "degree": "M.S. in Computer Science (Data & Systems Focus)",
+      "year": "2020"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Airbnb",
+      "title": "Data Engineer",
+      "start": "03/2022",
+      "end": "09/2024",
+      "summary": "Built and maintained near-real-time data pipelines for marketplace analytics using Kafka ingestion, Apache Spark, and dbt; designed BigQuery data models (star schemas, incremental models); implemented Airflow orchestration with SLA monitoring; developed reusable ingestion templates; partnered on data contracts and validation with Great Expectations; tuned Spark jobs to reduce compute costs."
+    },
+    {
+      "company": "Salesforce",
+      "title": "Data Engineer",
+      "start": "07/2019",
+      "end": "02/2022",
+      "summary": "Developed ETL pipelines using Python, SQL, and Informatica transitioning to ELT; created and optimized Snowflake stored procedures/views to improve reporting freshness; implemented CDC ingestion using Debezium with streaming transforms ensuring ordering/idempotency; built data quality frameworks integrated into CI/CD; collaborated on naming conventions and schema governance; resolved production incidents and improved alerting."
+    },
+    {
+      "company": "Salesforce (Project-based)",
+      "title": "Software Engineer Intern / Data Engineering Intern (Early Career)",
+      "start": "06/2018",
+      "end": "06/2019",
+      "summary": "Assisted in building prototype pipelines for campaign attribution datasets with data profiling and performance testing; worked with senior engineers on ETL automation, unit tests for transformation logic, and validation queries."
+    }
+  ],
+  "skills": [
+    "Data Engineering (ETL/ELT, data pipelines)",
+    "Python (pandas, PySpark development)",
+    "SQL (performance tuning, window functions, query optimization)",
+    "Apache Spark (distributed processing, optimization)",
+    "dbt (models, tests, documentation)",
+    "Airflow (DAG design, scheduling, backfills)",
+    "Streaming & CDC (Kafka, Debezium, idempotent processing)",
+    "BigQuery and/or Snowflake (data modeling, warehousing)",
+    "Data Modeling (star schemas, incremental models, normalization)",
+    "Data Quality & Testing (Great Expectations, constraints, validation)",
+    "Cloud Storage & Compute (S3/GCS, IAM, networking basics)",
+    "CI/CD for data (Git workflows, automated checks)",
+    "Monitoring & Reliability (SLA/alerting, incident triage)"
+  ],
+  "certifications": [
+    "Google Cloud Professional Data Engineer (Issued: 04/2024)",
+    "AWS Certified Data Engineer \u2013 Associate (Issued: 11/2021)"
+  ],
+  "location": "Los Angeles, CA"
+}

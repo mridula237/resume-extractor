@@ -1,0 +1,58 @@
+{
+  "name": "Carlos Mendez",
+  "emails": [
+    "carlos.mendez@protonmail.com"
+  ],
+  "phones": [
+    "+1 (415) 555-0187"
+  ],
+  "total_years_experience": 4,
+  "education": [
+    {
+      "institution": "Purdue University",
+      "degree": "MS, Computer Science",
+      "year": "2017"
+    },
+    {
+      "institution": "University of Illinois",
+      "degree": "BS, Statistics & Computer Science",
+      "year": "2015"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Microsoft",
+      "title": "Research Scientist (Applied ML & Causal Methods)",
+      "start": "Aug 2022",
+      "end": "Present",
+      "summary": "Led development of a causal measurement framework for large-scale online experiments; built and benchmarked recommendation/ranking models; implemented monitoring (drift, calibration, performance segmentation); partnered on metrics/guardrails/statistical validity; authored technical reports and presented results."
+    },
+    {
+      "company": "McKinsey",
+      "title": "Associate/Engagement Analyst (Advanced Analytics & ML)",
+      "start": "Sep 2019",
+      "end": "Jul 2022",
+      "summary": "Developed end-to-end analytics and ML solutions; performed segmentation and propensity/uplift modeling; conducted quasi-experimental causal analyses (DID, matching); built data pipelines/dashboards reducing reporting effort and improving data quality; mentored junior analysts on experimental methodology and reproducible workflows."
+    }
+  ],
+  "skills": [
+    "Machine Learning (supervised learning, ranking/recommendation)",
+    "Causal Inference (DID, matching, uplift modeling)",
+    "Experimental Design & A/B Testing (power analysis, metric design, guardrails)",
+    "Statistical Modeling (GLMs, Bayesian approaches)",
+    "Data Engineering (ETL pipelines, SQL optimization, data validation)",
+    "Model Evaluation (calibration, bias/variance analysis, offline vs online metrics)",
+    "Python (pandas, NumPy, scikit-learn, PyTorch)",
+    "SQL (advanced querying, window functions)",
+    "Spark/Distributed Computing (basic to intermediate)",
+    "Feature Engineering (encoding, embeddings, time-based features)",
+    "Monitoring & Drift Detection (time-series and segmentation)",
+    "Reproducibility (Git, experiment tracking, documentation)",
+    "Scientific Writing & Stakeholder Communication"
+  ],
+  "certifications": [
+    "Microsoft Certified: Azure Data Scientist Associate (DP-100) \u2014 Issued Mar 2023",
+    "Google Professional Certificate: Machine Learning (or equivalent recognized ML specialization) \u2014 Completed Nov 2021"
+  ],
+  "location": "San Francisco, CA"
+}

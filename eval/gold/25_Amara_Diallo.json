@@ -1,0 +1,61 @@
+{
+  "name": "AMARA DIALLO",
+  "emails": [
+    "amara.diallo@email.com"
+  ],
+  "phones": [
+    "+1 (555) 013-2048"
+  ],
+  "total_years_experience": 4,
+  "education": [
+    {
+      "institution": "Northeastern University",
+      "degree": "B.S. in Statistics and Data Science",
+      "year": "2013\u20132017"
+    }
+  ],
+  "employment": [
+    {
+      "company": "DataShed Analytics (Hybrid, Remote)",
+      "title": "Analytics Engineer \u2014 Data & Analytics Engineering",
+      "start": "June 2021",
+      "end": "Present",
+      "summary": "Built and maintained dbt models and semantic layers; optimized Snowflake ELT performance and reduced warehouse costs; implemented data quality checks; automated documentation and CI checks with GitHub Actions."
+    },
+    {
+      "company": "Northbridge Retail Group",
+      "title": "Analytics Engineer",
+      "start": "Jan 2019",
+      "end": "May 2021",
+      "summary": "Designed SQL transformations for customer/sales analytics; built Looker/Tableau dashboards and reusable data models; improved reporting reliability with monitoring/alerting; refined attribution and cohort logic for retention/conversion metrics."
+    },
+    {
+      "company": "BrightWave Media",
+      "title": "Data Analyst (Analytics Engineering Support)",
+      "start": "Aug 2017",
+      "end": "Dec 2018",
+      "summary": "Performed exploratory analysis and built reporting datasets using SQL/Python; automated data pulls and reporting templates; supported validation and reconciliation between data sources."
+    }
+  ],
+  "skills": [
+    "SQL (complex joins, window functions, performance tuning)",
+    "dbt (models, macros, tests, snapshots, documentation)",
+    "Snowflake (also worked with BigQuery/Redshift)",
+    "ELT/ETL concepts",
+    "Orchestration fundamentals (Airflow/Prefect familiarity)",
+    "Data modeling (star schemas, incremental models, SCDs)",
+    "Data quality & testing (dbt tests, freshness checks, reconciliation workflows)",
+    "Looker",
+    "Tableau",
+    "Git",
+    "GitHub Actions",
+    "Python (pandas, data validation scripting)",
+    "Metric design & stakeholder communication"
+  ],
+  "certifications": [
+    "dbt Fundamentals (dbt Labs) \u2014 2023",
+    "Snowflake Data Analyst (Snowflake) \u2014 2022",
+    "Google Data Analytics Professional Certificate (Coursera) \u2014 2021"
+  ],
+  "location": "New York, NY (Open to remote)"
+}

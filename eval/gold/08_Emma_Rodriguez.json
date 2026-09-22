@@ -1,0 +1,64 @@
+{
+  "name": "Emma Rodriguez",
+  "emails": [
+    "emma.rodriguez@email.com"
+  ],
+  "phones": [
+    "+1 (617) 555-0194"
+  ],
+  "total_years_experience": null,
+  "education": [
+    {
+      "institution": "New York University (NYU)",
+      "degree": "M.S., Data Analytics",
+      "year": "2017"
+    },
+    {
+      "institution": "University of Texas at Austin",
+      "degree": "B.S., Statistics",
+      "year": "2015"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Netflix",
+      "title": "Data Analyst, Product Analytics",
+      "start": "Jun 2022",
+      "end": "Aug 2024",
+      "summary": "Built and maintained KPI dashboards for streaming engagement and retention; designed A/B test metrics and analysis plans; performed cohort/churn analyses and recommended improvements; developed SQL models and data quality checks; created weekly executive-ready reporting packs."
+    },
+    {
+      "company": "Palantir",
+      "title": "Data Analyst (Foundry / Operations Analytics)",
+      "start": "Jan 2020",
+      "end": "May 2022",
+      "summary": "Conducted data exploration/modeling and integrated disparate datasets; built SQL/Python pipelines to standardize data definitions and reduce metric discrepancies; supported deployment with transformation logic/validation/documentation; collaborated with engineering to optimize queries and reduce compute cost; delivered ad hoc segmentation/funnel/root-cause analyses."
+    },
+    {
+      "company": "Junior Data Analyst \u2014 Analytics & Reporting Consultant",
+      "title": "Junior Data Analyst (Analytics & Reporting Consultant)",
+      "start": "Sep 2017",
+      "end": "Dec 2019",
+      "summary": "Built scheduled dashboards and automated SQL extracts; improved data refresh reliability from weekly to daily; cleaned/reconciled datasets and documented assumptions; produced stakeholder presentations summarizing trends/anomalies/action items."
+    }
+  ],
+  "skills": [
+    "SQL (complex joins, window functions, CTEs, query optimization)",
+    "Python (pandas, NumPy, data cleaning, statistical analysis)",
+    "A/B Testing & Experimentation (metrics design, power/segmentation concepts)",
+    "Statistical Analysis (hypothesis testing, regression, confidence intervals)",
+    "Data Modeling (star schemas, metric definitions, cohort logic)",
+    "KPI & Funnel Analysis (retention, activation, churn, engagement)",
+    "Dashboarding (Tableau / Looker-style workflows; stakeholder-ready reporting)",
+    "ETL/ELT Concepts (data pipelines, validation, reconciliation)",
+    "Data Quality & Governance (consistency checks, anomaly detection basics)",
+    "Event/Behavior Analytics (tracking, sessionization concepts)",
+    "Documentation & Stakeholder Communication",
+    "Performance Tuning (aggregation strategies, indexing awareness)"
+  ],
+  "certifications": [
+    "Google Data Analytics Professional Certificate \u2014 Google / Coursera (Completed: Nov 2021)",
+    "AWS Certified Data Analytics \u2014 Specialty (DAS-C01) (Certified: Aug 2023)"
+  ],
+  "location": "Boston, MA"
+}

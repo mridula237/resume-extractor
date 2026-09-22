@@ -1,0 +1,73 @@
+{
+  "name": "Sean Murphy",
+  "emails": [
+    "sean.murphy@email.com"
+  ],
+  "phones": [
+    "(555) 013-2048"
+  ],
+  "total_years_experience": null,
+  "education": [
+    {
+      "institution": "University of Washington",
+      "degree": "M.S. in Data Science",
+      "year": "2018"
+    },
+    {
+      "institution": "University of California, San Diego",
+      "degree": "B.S. in Physics",
+      "year": "2016"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Northstar Labs",
+      "title": "Research Scientist",
+      "start": "June 2021",
+      "end": "Present",
+      "summary": "Designed and ran experiments to evaluate predictive algorithms; improved model accuracy by 12%. Built and maintained SQL + Python data processing pipelines to automate dataset creation and validation. Developed statistical models and performed hypothesis testing (power analysis, confidence intervals, regression). Produced technical reports and streamlined documentation for reproducibility."
+    },
+    {
+      "company": "HarborTech",
+      "title": "Research Analyst to Research Scientist, Data Science Research",
+      "start": "Jan 2019",
+      "end": "May 2021",
+      "summary": "Conducted literature reviews and prototyped ML baselines (scikit-learn, XGBoost). Implemented monitoring for data drift/model degradation and created dashboards. Collaborated with engineers to transition prototypes into production workflows (unit testing, model versioning). Cleaned/curated datasets using outlier detection and normalization."
+    }
+  ],
+  "skills": [
+    "statistical testing",
+    "regression",
+    "experimental design",
+    "confidence intervals",
+    "power analysis",
+    "supervised learning",
+    "feature engineering",
+    "model evaluation",
+    "ablation studies",
+    "Python",
+    "SQL",
+    "pandas",
+    "NumPy",
+    "scikit-learn",
+    "workflow automation",
+    "ETL/ELT",
+    "data validation",
+    "reproducible analysis",
+    "Git",
+    "matplotlib",
+    "seaborn",
+    "dashboarding",
+    "technical writing",
+    "presentations",
+    "reproducible documentation",
+    "cross-functional teamwork",
+    "stakeholder alignment",
+    "mentoring"
+  ],
+  "certifications": [
+    "Google Professional Machine Learning Engineer (Issued 2023)",
+    "Microsoft Certified: Azure Data Fundamentals (DP-900) (Issued 2022)"
+  ],
+  "location": "Seattle, WA (open to remote)"
+}

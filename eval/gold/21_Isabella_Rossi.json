@@ -1,0 +1,85 @@
+{
+  "name": "ISABELLA ROSSI",
+  "emails": [
+    "isabella.rossi@email.com"
+  ],
+  "phones": [
+    "+1 (555) 013-2048"
+  ],
+  "total_years_experience": 4,
+  "education": [
+    {
+      "institution": "Columbia University",
+      "degree": "M.S. in Data Science",
+      "year": "2018"
+    },
+    {
+      "institution": "University of Rochester",
+      "degree": "B.S. in Computer Science",
+      "year": "2016"
+    }
+  ],
+  "employment": [
+    {
+      "company": "BrightCart Analytics (Retail & E-commerce)",
+      "title": "Data Scientist",
+      "start": "Mar 2022",
+      "end": "Present",
+      "summary": "Developed and deployed demand forecasting models; built experimentation analytics (A/B and multi-armed bandits); designed customer segmentation pipelines (RFM + clustering); created reusable Python modules for data validation, training pipelines, and automated reporting."
+    },
+    {
+      "company": "NovaHealth Insights (Healthcare Analytics)",
+      "title": "Data Scientist",
+      "start": "Jun 2020",
+      "end": "Feb 2022",
+      "summary": "Trained predictive models for high-risk patient identification; led feature engineering and data wrangling for claims/labs/EHR datasets; partnered with clinicians and product teams using SHAP and monitoring dashboards; implemented model governance (documentation, bias checks, drift monitoring)."
+    },
+    {
+      "company": "HelioTech Systems",
+      "title": "Junior Data Scientist",
+      "start": "Sep 2018",
+      "end": "May 2020",
+      "summary": "Assisted with recommendation and classification models; built SQL pipelines and Python ETL scripts; supported dashboarding and KPI monitoring with reproducible analyses for stakeholders."
+    }
+  ],
+  "skills": [
+    "Python",
+    "SQL",
+    "pandas",
+    "NumPy",
+    "scikit-learn",
+    "LightGBM",
+    "XGBoost",
+    "gradient boosting",
+    "regression/classification",
+    "clustering",
+    "model calibration",
+    "time series forecasting",
+    "feature engineering",
+    "A/B testing",
+    "confidence intervals",
+    "statistical significance",
+    "ETL pipelines",
+    "data validation",
+    "SQL optimization",
+    "batch processing patterns",
+    "FastAPI",
+    "Flask",
+    "model versioning",
+    "drift monitoring",
+    "logging",
+    "matplotlib",
+    "seaborn",
+    "Tableau",
+    "Looker",
+    "responsible AI",
+    "fairness/bias checks",
+    "SHAP interpretability",
+    "documentation"
+  ],
+  "certifications": [
+    "Google Professional Machine Learning Engineer (2021)",
+    "AWS Certified Machine Learning \u2013 Specialty (2022)"
+  ],
+  "location": "New York, NY"
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Aisha Okonkwo",
+  "emails": [
+    "aisha.okonkwo@gmail.com"
+  ],
+  "phones": [
+    "+1 (206) 555-0147"
+  ],
+  "total_years_experience": null,
+  "education": [
+    {
+      "institution": "Columbia University",
+      "degree": "M.S., Computer Science",
+      "year": "2022"
+    },
+    {
+      "institution": "University of Washington",
+      "degree": "B.S., Computer Science",
+      "year": "2019"
+    }
+  ],
+  "employment": [
+    {
+      "company": "OpenAI",
+      "title": "Full Stack Engineer (Applied Products)",
+      "start": "Mar 2022",
+      "end": "Aug 2024",
+      "summary": "Built and shipped user-facing features for model-backed tools; designed REST/streaming endpoints (FastAPI) integrated with React clients; implemented observability (logging/metrics/tracing) reducing incident resolution time by ~25%; partnered with ML/product teams on prompt/output management UI/UX and safety controls; improved automated testing strategy using Playwright and pytest."
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Software Engineer, Full Stack",
+      "start": "Jul 2019",
+      "end": "Feb 2022",
+      "summary": "Developed internal and partner web apps for workflow management and telemetry visualization; built backend services in Python and Node.js for scalable APIs and background jobs; led frontend migration to component-based React + TypeScript architecture; optimized performance for data-heavy pages (caching/pagination/virtualization) improving load times by ~35%; deployed services on AWS with CI/CD and reliable rollbacks."
+    },
+    {
+      "company": "Early Career \u2014 Full Stack Engineer (Contract/Startup Projects)",
+      "title": "Full Stack Engineer (Contract/Startup Projects)",
+      "start": "Aug 2017",
+      "end": "Jun 2019",
+      "summary": "Delivered end-to-end SaaS features including authentication, Stripe billing, and admin tooling; implemented secure multi-tenant data handling with role-based access controls; built REST APIs and UI components with continuous deployment and automated QA checks."
+    }
+  ],
+  "skills": [
+    "React",
+    "TypeScript",
+    "JavaScript (ES6+)",
+    "Python",
+    "Node.js",
+    "REST APIs",
+    "Streaming APIs / WebSockets",
+    "FastAPI",
+    "SQL (PostgreSQL)",
+    "NoSQL (Redis for caching/queues)",
+    "AWS (EC2, S3, IAM, CloudWatch)",
+    "CI/CD (GitHub Actions)",
+    "Testing (pytest, Jest, Playwright)",
+    "Performance optimization (caching, pagination, virtualization)",
+    "Observability (structured logs, metrics, tracing)",
+    "Security (OAuth2/JWT, RBAC, input validation)"
+  ],
+  "certifications": [
+    "AWS Certified Developer \u2013 Associate (DVA-C02) (Issued: 2021)",
+    "Microsoft Certified: Azure Fundamentals (AZ-900) (Issued: 2020)"
+  ],
+  "location": "Seattle, WA"
+}

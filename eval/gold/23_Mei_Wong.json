@@ -1,0 +1,72 @@
+{
+  "name": "Mei Wong",
+  "emails": [
+    "mei.wong@email.com"
+  ],
+  "phones": [
+    "+1 (555) 013-2048"
+  ],
+  "total_years_experience": 4,
+  "education": [
+    {
+      "institution": "University of California, San Diego",
+      "degree": "B.S. in Computer Science",
+      "year": "2018"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Acme Analytics",
+      "title": "Data Engineer",
+      "start": "Mar 2021",
+      "end": "Present",
+      "summary": "Built and maintained ELT/ETL pipelines ingesting data from Salesforce, PostgreSQL, and SaaS APIs into Snowflake; implemented incremental loads and schema evolution; developed dbt dimensional modeling; added data quality checks and alerting; partnered on KPI logic and documentation; automated CI/CD deployments and environment promotion using IaC."
+    },
+    {
+      "company": "Northwind Retail Systems",
+      "title": "Data Engineer",
+      "start": "Aug 2018",
+      "end": "Feb 2021",
+      "summary": "Designed Airflow ingestion workflows; built Kafka-based streaming and batch integrations for near-real-time enrichment; optimized SQL and warehouse design (clustering/indexing/materialized views); created reusable transformation components and conventions; supported migration from legacy reporting to a modern analytics platform."
+    }
+  ],
+  "skills": [
+    "Snowflake",
+    "BigQuery",
+    "Redshift",
+    "dimensional modeling",
+    "performance tuning",
+    "ELT/ETL",
+    "streaming/batch pipelines",
+    "CDC concepts",
+    "incremental loads",
+    "data modeling",
+    "SQL (advanced)",
+    "Python",
+    "PySpark",
+    "Bash",
+    "Apache Airflow",
+    "scheduling",
+    "dependency management",
+    "dbt",
+    "data testing",
+    "documentation",
+    "model versioning",
+    "Kafka",
+    "schema/serialization",
+    "data quality checks",
+    "freshness monitoring",
+    "logging",
+    "alerting",
+    "Git",
+    "CI/CD",
+    "code reviews",
+    "environments",
+    "infrastructure-as-code (IaC)"
+  ],
+  "certifications": [
+    "Snowflake Data Engineering (2024) \u2014 Snowflake Certification",
+    "Google Cloud Professional Data Engineer (2023) \u2014 Google Cloud"
+  ],
+  "location": "San Francisco, CA"
+}

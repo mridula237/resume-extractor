@@ -1,0 +1,64 @@
+{
+  "name": "Raj Sharma",
+  "emails": [
+    "raj.sharma.devops@gmail.com"
+  ],
+  "phones": [
+    "+1 (415) 555-0138"
+  ],
+  "total_years_experience": null,
+  "education": [
+    {
+      "institution": "Massachusetts Institute of Technology (MIT)",
+      "degree": "Master of Engineering (MEng), Computer Science and Engineering",
+      "year": "2017"
+    },
+    {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science (BS), Computer Science",
+      "year": "2016"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Uber",
+      "title": "DevOps Engineer",
+      "start": "Jun 2021",
+      "end": "May 2024",
+      "summary": "Built and maintained CI/CD pipelines for microservices (GitHub Actions, Jenkins); standardized infrastructure provisioning with Terraform; enhanced Kubernetes platform (Helm, autoscaling, rollout strategies); implemented observability dashboards/alerting (Prometheus, Grafana, CloudWatch); partnered on incident runbooks and post-incident improvements (chaos testing); performed security hardening (least-privilege IAM, AWS Secrets Manager, OPA/Kyverno); managed container image governance (SBOM, vulnerability scanning, signed artifacts)."
+    },
+    {
+      "company": "JPMorgan Chase & Co.",
+      "title": "DevOps Engineer",
+      "start": "Aug 2019",
+      "end": "May 2021",
+      "summary": "Automated build/deployment workflows using GitLab CI and Kubernetes; developed Terraform modules for network/compute (multi-account segmentation, standardized tagging); implemented monitoring/logging (ELK/EFK, Prometheus exporters); supported HA deployments and maintenance (blue-green, rollback automation); collaborated on performance tuning and operational readiness; assisted with security/compliance (audit evidence, change tracking)."
+    },
+    {
+      "company": "Uber (Contract-to-Hire)",
+      "title": "Junior DevOps Engineer / Systems Engineer",
+      "start": "Jan 2018",
+      "end": "Jul 2019",
+      "summary": "Supported AWS infrastructure operations (EC2, S3, ELB/ALB) and automated maintenance tasks with Python/Bash; created deployment and job automation for migrations/environment refreshes; helped implement monitoring/alerting and on-call escalation/runbook updates; troubleshot CI failures and improved pipeline reliability (caching, dependency pinning)."
+    }
+  ],
+  "skills": [
+    "AWS (EKS, ECS, EC2, IAM, VPC, S3, ALB)",
+    "Kubernetes (Helm, Ingress, autoscaling, rollout strategies)",
+    "Terraform (modules, state management, multi-account patterns)",
+    "CI/CD (GitHub Actions, Jenkins, GitLab CI)",
+    "Docker and container build optimization",
+    "Monitoring/Observability (Prometheus, Grafana, CloudWatch, ELK/EFK)",
+    "Linux (system administration, networking fundamentals)",
+    "Infrastructure automation with Python/Bash",
+    "Secrets management (AWS Secrets Manager, secure pipelines)",
+    "IAM least-privilege and security hardening",
+    "SRE/incident response (runbooks, root cause analysis)",
+    "Performance testing fundamentals (load testing, capacity planning)"
+  ],
+  "certifications": [
+    "AWS Certified DevOps Engineer \u2013 Professional (DOP-C02)",
+    "Kubernetes Certified Administrator (CKA)"
+  ],
+  "location": "San Francisco, CA"
+}

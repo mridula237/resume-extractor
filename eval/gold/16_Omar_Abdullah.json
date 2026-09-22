@@ -1,0 +1,84 @@
+{
+  "name": "Omar Abdullah",
+  "emails": [
+    "omar.abdullah@domain.com"
+  ],
+  "phones": [
+    "+1 (310) 555-0194"
+  ],
+  "total_years_experience": 5,
+  "education": [
+    {
+      "institution": "Stanford University",
+      "degree": "M.S. in Computer Science",
+      "year": "2017"
+    },
+    {
+      "institution": "New York University",
+      "degree": "B.S. in Computer Engineering",
+      "year": "2015"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Snowflake",
+      "title": "Platform Engineer",
+      "start": "Jun 2021",
+      "end": "Present",
+      "summary": "Built and operated internal platform services for Kubernetes-based workloads; improved rollout automation and time-to-deploy. Developed Terraform IaC modules, implemented CI/CD pipelines, established observability standards (Prometheus/Grafana/OpenTelemetry), enforced least-privilege IAM and Vault-based secret management, and automated environment management via GitOps (Argo CD) with policy-as-code checks (OPA/Gatekeeper)."
+    },
+    {
+      "company": "JPMorgan Chase & Co.",
+      "title": "Platform Engineer",
+      "start": "Aug 2018",
+      "end": "May 2021",
+      "summary": "Supported enterprise CI/CD for microservices/data platforms; delivered blue/green deployments. Created reusable Kubernetes Helm charts/templates, implemented Terraform/Ansible/AWS CloudFormation for configuration management, enhanced observability (ELK/OpenSearch, SLI/SLO dashboards), performed incident response/root-cause/postmortems, and collaborated to harden connectivity and access controls."
+    },
+    {
+      "company": "JPMorgan Chase & Co.",
+      "title": "Software Engineer (Infrastructure)",
+      "start": "Jun 2017",
+      "end": "Jul 2018",
+      "summary": "Contributed to automated build/deployment tooling. Built Python/Bash scripts to streamline operational tasks (log collection, health checks, deployment validation), helped containerize applications with Docker, and supported monitoring/alerting improvements for service health and capacity thresholds."
+    }
+  ],
+  "skills": [
+    "Kubernetes (EKS)",
+    "Helm",
+    "Helm chart development",
+    "Terraform",
+    "Infrastructure as Code (AWS)",
+    "GitOps (Argo CD)",
+    "CI/CD pipeline design",
+    "AWS IAM",
+    "AWS STS",
+    "VPC networking",
+    "Security Groups",
+    "Observability (Prometheus)",
+    "Observability (Grafana)",
+    "OpenTelemetry",
+    "Logging (ELK/Opensearch)",
+    "Structured logging standards",
+    "HashiCorp Vault",
+    "OPA / Gatekeeper",
+    "Docker containerization",
+    "SRE/Platform reliability (SLI/SLO)",
+    "Incident management",
+    "Postmortems",
+    "Python",
+    "Bash",
+    "Ansible",
+    "AWS CloudFormation (basic/maintenance)",
+    "Least privilege",
+    "Audit logging",
+    "Secure defaults",
+    "GitHub Actions",
+    "Jenkins",
+    "Pipeline automation"
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect \u2013 Professional (SAP-C02) (2023)",
+    "HashiCorp Certified: Terraform Associate (2022)"
+  ],
+  "location": "Los Angeles, CA"
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Nadia Petrov",
+  "emails": [
+    "nadia.petrova.cloud@gmail.com"
+  ],
+  "phones": [
+    "+1 (555) 013-4827"
+  ],
+  "total_years_experience": 4,
+  "education": [
+    {
+      "institution": "University of Texas at Austin",
+      "degree": "B.S. in Computer Science",
+      "year": "2017"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Atlas Analytics, Inc.",
+      "title": "Cloud Engineer",
+      "start": "Jun 2021",
+      "end": "Present",
+      "summary": "Built and maintained AWS infrastructure with Terraform; designed CI/CD pipelines (GitHub Actions, Jenkins); improved observability (CloudWatch, Prometheus/Grafana, ELK/OpenSearch) to reduce MTTR; managed ECS/EKS container deployments; implemented least-privilege IAM and encryption; optimized cloud costs via tuning and rightsizing."
+    },
+    {
+      "company": "Northwind Systems",
+      "title": "Cloud Engineer",
+      "start": "Mar 2019",
+      "end": "May 2021",
+      "summary": "Migrated legacy workloads to AWS; automated provisioning using CloudFormation/Terraform; supported production operations and incident response; implemented backup/DR with AWS Backup and snapshot/restore testing; built Python/Bash tooling for validation and health checks."
+    },
+    {
+      "company": "BrightWave Technologies",
+      "title": "IT Support / Systems Specialist",
+      "start": "Aug 2017",
+      "end": "Feb 2019",
+      "summary": "Supported Linux/Windows servers and user access; assisted with early cloud initiatives (AWS monitoring/access); improved ticketing workflows and service monitoring."
+    }
+  ],
+  "skills": [
+    "AWS (EC2, VPC, S3, IAM, RDS/Aurora, ECS, EKS, CloudWatch, ELB/ALB, Route 53, AWS Backup)",
+    "Terraform",
+    "CloudFormation",
+    "Docker",
+    "ECS",
+    "EKS",
+    "Helm (basic to intermediate)",
+    "GitHub Actions",
+    "Jenkins",
+    "Python automation",
+    "Shell scripting",
+    "IAM least privilege",
+    "Encryption (at rest/in transit)",
+    "Incident response",
+    "DR planning",
+    "Networking fundamentals",
+    "CloudWatch",
+    "OpenSearch/ELK",
+    "Grafana/Prometheus (where applicable)",
+    "VPC design",
+    "Security groups/NACLs",
+    "Load balancers"
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect \u2013 Associate (SAA)",
+    "AWS Certified Cloud Practitioner (if applicable)"
+  ],
+  "location": "Austin, TX (Open to remote)"
+}

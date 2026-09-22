@@ -1,0 +1,76 @@
+{
+  "name": "TYLER ANDERSON",
+  "emails": [
+    "tyler.anderson@email.com"
+  ],
+  "phones": [
+    "+1 (555) 123-4567"
+  ],
+  "total_years_experience": 4,
+  "education": [
+    {
+      "institution": "State University",
+      "degree": "B.S. in Computer Science",
+      "year": "2017"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Acme Logistics, Inc.",
+      "title": "Software Engineer (Backend)",
+      "start": "Jan 2022",
+      "end": "Present",
+      "summary": "Developed RESTful APIs and event-driven workflows; implemented JWT/OAuth security; improved observability and incident troubleshooting; migrated legacy components using CI/CD pipelines, reducing API response times ~25%."
+    },
+    {
+      "company": "NorthBridge Solutions",
+      "title": "Software Engineer",
+      "start": "Jun 2019",
+      "end": "Dec 2021",
+      "summary": "Owned backend/integration features (payments syncing, onboarding); improved data consistency and indexing for high-traffic endpoints; added CI checks to reduce deployment failures; collaborated on API contracts and Swagger/OpenAPI documentation."
+    },
+    {
+      "company": "Fieldstone Tech",
+      "title": "Junior Software Developer",
+      "start": "Aug 2017",
+      "end": "May 2019",
+      "summary": "Supported development/bug fixes for internal and customer-facing tools; contributed to automated test coverage; assisted with DB migrations; implemented monitoring alerts; wrote automation scripts to improve reporting turnaround time."
+    }
+  ],
+  "skills": [
+    "Java",
+    "JavaScript/TypeScript",
+    "Python",
+    "REST APIs",
+    "API design",
+    "microservices",
+    "authentication/authorization (OAuth/JWT)",
+    "PostgreSQL",
+    "MySQL",
+    "SQL optimization",
+    "schema migrations",
+    "AWS (EC2",
+    "S3",
+    "SQS",
+    "CloudWatch)",
+    "Docker",
+    "CI/CD",
+    "GitHub Actions",
+    "structured logging",
+    "metrics",
+    "dashboards",
+    "incident troubleshooting",
+    "unit testing",
+    "integration testing",
+    "test automation frameworks",
+    "Git",
+    "Swagger/OpenAPI",
+    "Jira",
+    "Agile/Scrum"
+  ],
+  "certifications": [
+    "AWS Certified Developer \u2013 Associate",
+    "Certified ScrumMaster (CSM)"
+  ],
+  "location": "City, State"
+}

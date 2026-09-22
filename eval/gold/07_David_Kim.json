@@ -1,0 +1,66 @@
+{
+  "name": "David Kim",
+  "emails": [
+    "david.kim@email.com"
+  ],
+  "phones": [
+    "(312) 555-0198"
+  ],
+  "total_years_experience": 4,
+  "education": [
+    {
+      "institution": "University of Texas at Austin",
+      "degree": "B.S. in Business Analytics (or Information Systems / Business Analytics\u2014focus area: Analytics)",
+      "year": "2020"
+    },
+    {
+      "institution": "UC Berkeley",
+      "degree": "M.A. in Business Administration (Analytics/Strategy coursework) or Relevant Graduate Coursework (completed coursework; degree completion not pursued)",
+      "year": "2020"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Atlassian",
+      "title": "Business Analyst, Marketplace & Revenue Analytics",
+      "start": "Jun 2022",
+      "end": "Aug 2024",
+      "summary": "Built KPI frameworks for marketplace health and revenue; conducted funnel/cohort analyses; led experimentation analysis; automated recurring reporting in SQL/Looker; wrote analytics requirements and event tracking validation; built dashboards and trained 20+ users."
+    },
+    {
+      "company": "Meta",
+      "title": "Business Analyst, Ads Insights & Operations",
+      "start": "Sep 2020",
+      "end": "May 2022",
+      "summary": "Analyzed ad performance and campaign efficiency; built SQL data pipelines for weekly reporting and reconciliation; supported operational capacity planning and forecasting; evaluated policy/tooling impacts on key metrics; documented metric definitions and analysis methodology."
+    },
+    {
+      "company": "Meta",
+      "title": "Product Analytics Intern",
+      "start": "Jun 2019",
+      "end": "Aug 2019",
+      "summary": "Performed data exploration for ad product feature evaluation; created dashboards; cleaned/modelled datasets in SQL; produced summaries of findings and risks."
+    }
+  ],
+  "skills": [
+    "SQL (advanced joins, window functions, query optimization)",
+    "Looker / LookML (dashboarding and modeling)",
+    "Python (pandas, data cleaning, basic automation)",
+    "Experimentation & A/B Testing (metric selection, cohort analysis)",
+    "KPI design & metric definitions (data governance, consistency)",
+    "Funnel and cohort analysis",
+    "Forecasting & scenario modeling",
+    "Data visualization (Looker/Tableau concepts)",
+    "Requirements gathering & stakeholder communication",
+    "SQL-based ETL concepts",
+    "Excel (advanced functions, pivoting, scenario tools)",
+    "Jira / Confluence (user stories, documentation)",
+    "Statistical reasoning (confidence intervals, effect sizing)",
+    "Root cause analysis"
+  ],
+  "certifications": [
+    "Google Data Analytics Professional Certificate \u2014 Google (Coursera) (Issued: Mar 2021)",
+    "Certified Analytics Professional (CAP) \u2014 INFORMS (or Similar Analytics Credential) (Issued: Aug 2023 or In progress\u2014per resume)"
+  ],
+  "location": "Chicago, IL"
+}

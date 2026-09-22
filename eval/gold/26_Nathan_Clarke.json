@@ -1,0 +1,75 @@
+{
+  "name": "Nathan Clarke",
+  "emails": [
+    "nathan.clarke@email.com"
+  ],
+  "phones": [
+    "+1 (415) 555-0134"
+  ],
+  "total_years_experience": null,
+  "education": [
+    {
+      "institution": "San Jose State University",
+      "degree": "B.S. in Computer Science",
+      "year": "2018"
+    }
+  ],
+  "employment": [
+    {
+      "company": "BrightLeaf Analytics",
+      "title": "Backend Engineer",
+      "start": "Jan 2022",
+      "end": "Present",
+      "summary": "Built and maintained RESTful event ingestion and analytics services with Java/Spring Boot; improved PostgreSQL query performance (~35% latency reduction); implemented Kafka-based async processing; enhanced observability (logging/metrics/tracing) to reduce MTTR; collaborated on versioned, backward-compatible endpoints and data backfills."
+    },
+    {
+      "company": "Harbor Commerce",
+      "title": "Backend Engineer",
+      "start": "Aug 2019",
+      "end": "Dec 2021",
+      "summary": "Developed e-commerce backend features using Node.js (TypeScript) and Express; implemented PostgreSQL migrations and data cleanup; built background workers/retry logic for integrations (payments/fulfillment); contributed Terraform automation and GitHub Actions CI/CD; participated in on-call rotation and improved incident response/runbooks."
+    },
+    {
+      "company": "Meridian Systems",
+      "title": "Software Engineering Intern",
+      "start": "Jun 2018",
+      "end": "Aug 2019",
+      "summary": "Assisted with internal APIs using Python and Django; wrote unit tests to improve coverage and reduce regressions; supported data validation and ETL scripts for reporting accuracy."
+    }
+  ],
+  "skills": [
+    "REST APIs",
+    "microservices",
+    "API versioning",
+    "background jobs",
+    "idempotency",
+    "authentication/authorization",
+    "Java",
+    "TypeScript/JavaScript",
+    "Python",
+    "PostgreSQL",
+    "MySQL (basic)",
+    "Redis (caching)",
+    "SQL performance tuning",
+    "Kafka",
+    "webhooks",
+    "consumer/producer patterns",
+    "AWS (EC2, S3, RDS, IAM, CloudWatch)",
+    "Terraform (basic)",
+    "Docker",
+    "structured logging",
+    "metrics",
+    "tracing (e.g., OpenTelemetry concepts)",
+    "GitHub Actions",
+    "CI pipelines",
+    "deployment best practices",
+    "unit/integration testing",
+    "mocking",
+    "test-driven development (where applicable)"
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect \u2013 Associate (SAA) (2023, Credential ID: XXXXXXXX)",
+    "Confluent Certified Developer for Apache Kafka (CCDAK) (2022, Credential ID: XXXXXXXX)"
+  ],
+  "location": "San Francisco, CA (Hybrid/Remote)"
+}

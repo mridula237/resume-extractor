@@ -1,0 +1,65 @@
+{
+  "name": "Yuki Tanaka",
+  "emails": [
+    "yuki.tanaka.ai@gmail.com"
+  ],
+  "phones": [
+    "+1 (917) 555-0148"
+  ],
+  "total_years_experience": null,
+  "education": [
+    {
+      "institution": "Carnegie Mellon University",
+      "degree": "M.S. in Machine Learning",
+      "year": "2019"
+    },
+    {
+      "institution": "Purdue University",
+      "degree": "B.S. in Computer Engineering",
+      "year": "2018"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Lyft",
+      "title": "AI Engineer",
+      "start": "Jun 2022",
+      "end": "Present",
+      "summary": "Built and deployed personalization ranking models using feature stores and offline-to-online pipelines, leading to CTR +2.8% and p95 inference latency -18%. Led online A/B experimentation and implemented robust evaluation/guardrail metrics. Developed and optimized data preprocessing and embedding pipelines (PyTorch + streaming ETL), reducing training data prep from ~6 hours to ~2.5 hours. Containerized model services (Docker, REST/gRPC) with model versioning and canary rollouts. Implemented monitoring dashboards (drift, data quality, performance) with alerting to improve stability and incident response."
+    },
+    {
+      "company": "IBM",
+      "title": "Machine Learning Engineer",
+      "start": "Aug 2019",
+      "end": "May 2022",
+      "summary": "Designed transformer-based NLP document understanding pipelines (F1 +3\u20135). Implemented scalable distributed training workflows and CI/CD for ML (GitHub Actions), reducing release cycle time ~25%. Built feature extraction and indexing systems with Elasticsearch and batch ETL, improving retrieval relevance and reducing processing time ~20%. Translated research prototypes into production services with error analysis, dataset curation, and model governance. Produced production-grade Python/SQL with reproducibility, configuration management, and dataset version tracking."
+    },
+    {
+      "company": "IBM",
+      "title": "Data Science Intern (AI/ML)",
+      "start": "May 2018",
+      "end": "Aug 2018",
+      "summary": "Built baseline classification models and performed hyperparameter tuning via Bayesian optimization. Assisted in evaluation harnesses and reporting pipelines to compare iterations consistently. Cleaned/normalized datasets using Spark and Python, improving training throughput and reducing data issues."
+    }
+  ],
+  "skills": [
+    "Python (PyTorch, TensorFlow, NumPy, Pandas)",
+    "Machine Learning (supervised learning, ranking, classification, regression)",
+    "NLP (transformers, embeddings, fine-tuning, text preprocessing)",
+    "Recommender Systems (feature engineering, ranking, CTR/CVR modeling)",
+    "Data Pipelines (Spark, ETL, streaming ingestion, SQL)",
+    "Model Deployment (Docker, REST/gRPC, canary releases, model versioning)",
+    "Experimentation & Evaluation (A/B testing, offline/online metrics, calibration)",
+    "MLOps (CI/CD for ML, reproducibility, configuration management)",
+    "Monitoring & Reliability (drift detection, data quality checks, alerting)",
+    "Performance Optimization (latency tuning, batching, caching)",
+    "Elasticsearch / Search Indexing",
+    "Git, Linux, Bash",
+    "AWS (S3, EC2, IAM) and cloud-based ML tooling"
+  ],
+  "certifications": [
+    "AWS Certified Machine Learning \u2013 Specialty (ML-Specialty) (Issued: 2021)",
+    "Google Professional Machine Learning Engineer (Issued: 2020)"
+  ],
+  "location": "New York, NY"
+}

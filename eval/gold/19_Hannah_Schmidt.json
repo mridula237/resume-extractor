@@ -1,0 +1,57 @@
+{
+  "name": "Hannah Schmidt",
+  "emails": [
+    "hannah.schmidt@email.com"
+  ],
+  "phones": [
+    "+1 (303) 555-0187"
+  ],
+  "total_years_experience": 4,
+  "education": [
+    {
+      "institution": "New York University",
+      "degree": "MS, Marketing Analytics",
+      "year": "Sep 2016 \u2013 May 2018"
+    },
+    {
+      "institution": "Columbia University",
+      "degree": "BA, Economics",
+      "year": "Sep 2012 \u2013 May 2016"
+    }
+  ],
+  "employment": [
+    {
+      "company": "OpenAI",
+      "title": "Marketing Analyst",
+      "start": "Mar 2022",
+      "end": "Aug 2024",
+      "summary": "Owned performance measurement for lifecycle and acquisition experiments; built Tableau/Looker dashboards; conducted cohort analyses; partnered with Product Marketing/Growth for A/B test readouts and QA; improved attribution logic with Data Engineering; produced monthly executive performance reviews."
+    },
+    {
+      "company": "Shopify",
+      "title": "Marketing Analyst (Growth Analytics)",
+      "start": "Jun 2019",
+      "end": "Feb 2022",
+      "summary": "Analyzed paid search/social/email performance; developed SQL-based reporting/segmentation pipelines; built RFM and behavior-based segmentation models; collaborated on targeting/messaging and improved conversions; standardized KPI reporting and trained stakeholders; created executive updates and deep-dive analyses."
+    }
+  ],
+  "skills": [
+    "SQL (advanced: joins, window functions, cohort queries)",
+    "Python (pandas, numpy, basic statistical testing)",
+    "Tableau / Looker (dashboards, metric definitions, stakeholder reporting)",
+    "Experimentation & A/B Testing (hypothesis design, confidence intervals, QA)",
+    "Attribution & Marketing Analytics (UTM practices, funnel attribution, cohort analysis)",
+    "Customer Segmentation (RFM, behavior cohorts, lifecycle stages)",
+    "Funnel Analysis (activation, conversion, retention metrics)",
+    "Data Modeling & ETL (working knowledge of dbt-style modeling concepts)",
+    "Excel (pivot tables, scenario analysis)",
+    "Campaign Performance Measurement (ROAS, CAC, LTV, retention)",
+    "Data Visualization & Storytelling",
+    "Stakeholder Management & Executive Reporting"
+  ],
+  "certifications": [
+    "Google Analytics Certification (GA4) \u2014 Google (Issued: Nov 2023)",
+    "Microsoft Certified: Data Analyst Associate (Power BI) \u2014 Microsoft (Issued: Aug 2021)"
+  ],
+  "location": "Denver, CO"
+}

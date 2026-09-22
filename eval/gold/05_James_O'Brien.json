@@ -1,0 +1,66 @@
+{
+  "name": "James O\u2019Brien",
+  "emails": [
+    "james.obrien@email.com"
+  ],
+  "phones": [
+    "(555) 014-7821"
+  ],
+  "total_years_experience": 4,
+  "education": [
+    {
+      "institution": "Carnegie Mellon University",
+      "degree": "Master of Science, Software Engineering",
+      "year": "Dec 2021"
+    },
+    {
+      "institution": "Ohio State University",
+      "degree": "Bachelor of Science, Computer Science and Engineering",
+      "year": "May 2019"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Tesla",
+      "title": "Software Engineer, Backend & Reliability",
+      "start": "Jun 2022",
+      "end": "Aug 2024",
+      "summary": "Designed and implemented event-driven services with Kafka and Python/Java to synchronize telemetry data, improving data latency by 28%; built and optimized REST/gRPC APIs, reducing p95 response times from 220ms to 140ms via query tuning and Redis caching; improved reliability with circuit breakers, retries/backoff, and idempotency keys, decreasing incident volume by 35%; standardized health checks and structured logging with SRE, improving MTTR efficiency; authored Terraform IaC modules and CI/CD automation, reducing rollout time from ~45 minutes to ~15 minutes."
+    },
+    {
+      "company": "Airbnb",
+      "title": "Software Engineer, Platform Services",
+      "start": "Sep 2019",
+      "end": "May 2022",
+      "summary": "Developed backend features for host tooling and internal platform services using Java/Spring Boot/MySQL supporting millions of requests/day; implemented asynchronous Kafka-based workflows to improve peak throughput ~20% and lower error rates; built Spark ingestion/transform jobs reducing daily processing time by 22%; enhanced observability with OpenTelemetry and improved alert rules, reducing time-to-diagnose performance regressions by ~30%; collaborated with product and engineering teams using code reviews and automated testing to deliver roadmap features with strong code quality."
+    },
+    {
+      "company": "Ohio State University",
+      "title": "Software Engineer (Teaching/Research Lab)",
+      "start": "Aug 2017",
+      "end": "Aug 2019",
+      "summary": "Supported research systems by building Python services and APIs for data collection/experiment workflows; created reusable testing and deployment scripts to streamline development and improve reproducibility; automated reporting pipelines using SQL and scheduled jobs, cutting manual reporting effort by roughly 10\u201315 hours/month."
+    }
+  ],
+  "skills": [
+    "Backend engineering (Java, Python)",
+    "Distributed systems and microservices",
+    "Event-driven architecture (Kafka)",
+    "Cloud platforms (AWS: EC2, S3, RDS, Lambda)",
+    "Datastores (MySQL, PostgreSQL, Redis)",
+    "API development (REST, gRPC)",
+    "Data processing (Apache Spark)",
+    "CI/CD (GitHub Actions, Jenkins)",
+    "Infrastructure as Code (Terraform)",
+    "Observability (OpenTelemetry, Prometheus/Grafana concepts, structured logging)",
+    "Performance tuning (caching, query optimization, concurrency)",
+    "Testing and quality (unit/integration tests, mocking frameworks)",
+    "Security fundamentals (OAuth2/JWT, secrets management)",
+    "Linux and shell scripting"
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect \u2013 Associate (Issued: Mar 2023)",
+    "Certified Kubernetes Administrator (CKA) (Issued: Nov 2024)"
+  ],
+  "location": "Denver, CO"
+}

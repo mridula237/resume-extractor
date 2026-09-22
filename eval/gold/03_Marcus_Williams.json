@@ -1,0 +1,67 @@
+{
+  "name": "Marcus Williams",
+  "emails": [
+    "marcus.williams@email.com"
+  ],
+  "phones": [
+    "+1 (415) 555-0138"
+  ],
+  "total_years_experience": null,
+  "education": [
+    {
+      "institution": "Carnegie Mellon University",
+      "degree": "Master of Science (M.S.), Machine Learning",
+      "year": "2016"
+    },
+    {
+      "institution": "Massachusetts Institute of Technology (MIT)",
+      "degree": "Bachelor of Science (B.S.), Computer Science",
+      "year": "2014"
+    }
+  ],
+  "employment": [
+    {
+      "company": "OpenAI",
+      "title": "Machine Learning Engineer (Applied Research to Production)",
+      "start": "Aug 2022",
+      "end": "Present",
+      "summary": "Developed and deployed transformer-based NLP pipelines for intent classification/response routing; built scalable training/evaluation workflows; implemented inference optimizations to reduce p95 latency; collaborated on dataset and safety-related filtering policies with quality dashboards; led incident response for model regressions; managed experiments with MLflow/W&B."
+    },
+    {
+      "company": "Twitter",
+      "title": "Machine Learning Engineer",
+      "start": "Jun 2019",
+      "end": "Jul 2022",
+      "summary": "Engineered ranking and recommendation models for personalized feed and related content; improved CTR/engagement via feature and objective tuning; built feature processing/training pipelines with Spark/Python; implemented model serving with monitoring; created online evaluation frameworks (A/B testing, bandit rollouts) and dashboards."
+    },
+    {
+      "company": "Early Career \u2014 Software Engineer (ML Systems)",
+      "title": "Software Engineer (ML Systems)",
+      "start": "Aug 2016",
+      "end": "May 2019",
+      "summary": "Developed infrastructure for ML workloads (ETL, data validation, artifact management); created baseline NLP models and data labeling workflows; contributed to CI/CD for ML services and automated test suites for data preprocessing/feature transformations."
+    }
+  ],
+  "skills": [
+    "Machine Learning (Deep Learning, NLP, Recommender Systems)",
+    "PyTorch",
+    "TensorFlow",
+    "Transformer Models (BERT/RoBERTa, encoder-decoder patterns)",
+    "Ranking/Recommendation (two-tower, retrieval + rerank, embeddings)",
+    "Feature Engineering & Representation Learning",
+    "Data Processing (Spark, Pandas, SQL)",
+    "Model Evaluation (offline metrics, A/B testing, error analysis)",
+    "MLOps & Deployment (model serving, monitoring, rollout strategies)",
+    "Experiment Tracking (MLflow, Weights & Biases)",
+    "Experiment Design (ablation studies, hyperparameter optimization)",
+    "Performance Optimization (quantization, batching, caching)",
+    "APIs & Systems Integration (REST/gRPC)",
+    "Containerization (Docker)",
+    "Cloud Infrastructure (AWS)"
+  ],
+  "certifications": [
+    "AWS Certified Machine Learning \u2013 Specialty (ML-Specialty) \u2014 Issued Sep 2021",
+    "Google Professional Machine Learning Engineer (or equivalent) \u2014 Issued Jun 2020"
+  ],
+  "location": "San Francisco, CA"
+}

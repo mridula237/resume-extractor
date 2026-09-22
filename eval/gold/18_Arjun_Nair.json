@@ -1,0 +1,80 @@
+{
+  "name": "Arjun Nair",
+  "emails": [
+    "arjun.nair.qa@gmail.com"
+  ],
+  "phones": [
+    "+1 (617) 555-0194"
+  ],
+  "total_years_experience": null,
+  "education": [
+    {
+      "institution": "University of Texas at Austin",
+      "degree": "B.S. in Computer Science",
+      "year": "2014-2018"
+    },
+    {
+      "institution": "Stanford University",
+      "degree": "M.S. in Computer Science (Quality & Reliability Focus)",
+      "year": "2018-2020"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Airbnb",
+      "title": "QA Engineer",
+      "start": "Jun 2021",
+      "end": "Aug 2023",
+      "summary": "Developed and maintained an end-to-end automation framework using Python, Playwright, and REST API validations, reducing UI regression time by ~45%; owned test coverage for booking and messaging workflows with 250+ automated test cases; partnered with SDEs/PMs on acceptance criteria and test strategy; built API contract and regression tests with pytest and Postman/Newman; integrated tests into CI pipelines (GitHub Actions/Jenkins) with reporting and gating rules; led defect triage (repro, logs/traces, high-quality bug reports)."
+    },
+    {
+      "company": "OpenAI",
+      "title": "QA Engineer (Automation)",
+      "start": "Sep 2019",
+      "end": "May 2021",
+      "summary": "Implemented automation for model-serving APIs and internal evaluation pipelines using Python/pytest and TypeScript-based tooling; created smoke/regression/nightly suites to validate API reliability and latency/error handling; developed performance test scripts and monitoring checks (k6/JMeter-style); worked with engineering on quality metrics and flaky test reduction; conducted exploratory testing and automated coverage where feasible; maintained test environments/data fixtures and documented runbooks."
+    },
+    {
+      "company": "Independent / Contract",
+      "title": "QA Engineer (Associate)",
+      "start": "Jan 2018",
+      "end": "Aug 2019",
+      "summary": "Supported web/mobile projects with Selenium and API testing; helped establish basic QA processes (checklists, smoke test plans, release verification); wrote test cases and performed regression testing, documenting defects and verification steps."
+    }
+  ],
+  "skills": [
+    "Playwright",
+    "Selenium",
+    "pytest",
+    "REST/JSON",
+    "Postman/Newman",
+    "Python",
+    "TypeScript/JavaScript",
+    "GitHub Actions",
+    "Jenkins",
+    "risk-based testing",
+    "regression planning",
+    "smoke suites",
+    "Jira",
+    "test case management",
+    "triage workflows",
+    "k6/JMeter-style performance testing",
+    "latency/throughput checks",
+    "deterministic fixtures",
+    "environment setup",
+    "mocking",
+    "logs/traces analysis",
+    "debugging flaky tests",
+    "dashboards",
+    "flaky test reduction",
+    "quality gates",
+    "cross-functional collaboration with SDE/PM",
+    "writing acceptance criteria",
+    "basic OWASP testing knowledge"
+  ],
+  "certifications": [
+    "ISTQB Certified Tester (CTFL) \u2014 Apr 2022",
+    "Certified K6 Performance Testing (Practical) \u2014 Nov 2023"
+  ],
+  "location": "Boston, MA"
+}

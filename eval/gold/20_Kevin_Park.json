@@ -1,0 +1,65 @@
+{
+  "name": "Kevin Park",
+  "emails": [
+    "kevin.park@outlook.com"
+  ],
+  "phones": [
+    "(917) 555-0148"
+  ],
+  "total_years_experience": null,
+  "education": [
+    {
+      "institution": "UC Berkeley, Haas School of Business",
+      "degree": "Master of Business Administration (MBA), Finance",
+      "year": "2018"
+    },
+    {
+      "institution": "Purdue University",
+      "degree": "Bachelor of Science (BS), Economics",
+      "year": "2016"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Salesforce",
+      "title": "Financial Analyst, FP&A",
+      "start": "Jun 2021",
+      "end": "Present",
+      "summary": "Built and maintained quarterly forecasting models for subscription revenue and cost lines; owned monthly operating cadence with KPI reporting and executive summaries; developed scenario analyses for operational initiatives; automated recurring variance reporting using SQL and Excel (Power Query); partnered with procurement and engineering finance to track cloud/infrastructure spend and identify cost optimization opportunities."
+    },
+    {
+      "company": "LinkedIn (Workforce Solutions)",
+      "title": "Financial Analyst",
+      "start": "Aug 2019",
+      "end": "May 2021",
+      "summary": "Supported annual budgeting and quarterly reforecasts for a multi-product portfolio using driver-based models; analyzed go-to-market initiatives (CAC/LTV, payback); performed variance analysis and produced board-ready narratives; reconciled billing/usage data into finance metrics with data teams; created Tableau KPI dashboards for leadership."
+    },
+    {
+      "company": "Deloitte (Client Service / Tech Industry)",
+      "title": "Analyst, Financial Planning & Analysis",
+      "start": "Sep 2018",
+      "end": "Jul 2019",
+      "summary": "Produced monthly financial deliverables (variance commentary, trends, forecast updates) for technology clients; supported budgeting workflows with historical actuals and scenario comparisons; built standardized executive reporting templates; assisted with financial due diligence (KPI benchmarking and statement normalization)."
+    }
+  ],
+  "skills": [
+    "FP&A (Budgeting, Forecasting, Variance Analysis)",
+    "Financial Modeling (Driver-based, Scenario Analysis)",
+    "Revenue Analytics (ARR, Bookings, Churn, Retention)",
+    "Cost & Margin Analysis (Gross margin, OpEx drivers)",
+    "KPI Dashboards & Reporting (Tableau)",
+    "Advanced Excel (PivotTables, Power Query, Modeling)",
+    "SQL (Data extraction, joins, aggregations)",
+    "Python (Pandas for analysis and automation)",
+    "Data Reconciliation & Controls",
+    "Executive Communication & Narrative Reporting",
+    "Stakeholder Management (Sales Ops, Product, Engineering Finance)",
+    "Financial Systems (Anaplan / Adaptive Planning concepts)",
+    "Forecast Accuracy & Performance Management"
+  ],
+  "certifications": [
+    "Certified Financial Planning (CFP) \u2013 In Progress (Expected completion: 2027)",
+    "Tableau Desktop Specialist Certification \u2014 Tableau (Issued 2022)"
+  ],
+  "location": "New York, NY"
+}

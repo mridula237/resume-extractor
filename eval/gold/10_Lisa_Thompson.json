@@ -1,0 +1,74 @@
+{
+  "name": "Lisa Thompson",
+  "emails": [
+    "lisa.thompson@example.com"
+  ],
+  "phones": [
+    "+1 (202) 555-0198"
+  ],
+  "total_years_experience": 4,
+  "education": [
+    {
+      "institution": "Cornell University",
+      "degree": "B.S., Computer Science",
+      "year": "2018"
+    },
+    {
+      "institution": "Ohio State University",
+      "degree": "M.S., Computer Science",
+      "year": "2017"
+    }
+  ],
+  "employment": [
+    {
+      "company": "NVIDIA",
+      "title": "Backend Engineer",
+      "start": "Jan 2022",
+      "end": "Present",
+      "summary": "Designed and implemented REST/gRPC services (10M+ requests/month, p95 < 80ms); built Kafka-based event processing pipelines; optimized PostgreSQL access patterns (CPU ~25% reduction); led migration of services to Kubernetes (Helm), improving deployment frequency and rollback time; partnered on security (Vault secrets rotation, least-privilege, audit logging)."
+    },
+    {
+      "company": "Atlassian",
+      "title": "Software Engineer, Backend",
+      "start": "Aug 2019",
+      "end": "Dec 2021",
+      "summary": "Developed Jira integration backend features (success rate 96% -> 99.2%); implemented background job processing (queues/retries/DLQ) reducing failures 40% and MTTR 30%; built admin/reporting endpoints with MySQL + Redis caching reducing load times up to 45%; improved reliability with structured logging, distributed tracing, and Grafana/Prometheus dashboards; collaborated on API contracts/backward compatibility with versioning and contract tests."
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Software Engineering Intern (Backend)",
+      "start": "Jun 2018",
+      "end": "Aug 2018",
+      "summary": "Built a telemetry aggregation prototype with Python and Kafka; implemented automated testing and created performance dashboards; documented runbooks and deployment steps to improve handoff reliability."
+    }
+  ],
+  "skills": [
+    "Java (Spring Boot)",
+    "Kotlin",
+    "REST and gRPC API design",
+    "Distributed systems and asynchronous processing",
+    "Kafka (producers/consumers, schema management, idempotency)",
+    "Kubernetes",
+    "Helm",
+    "Docker",
+    "PostgreSQL performance tuning (indexes, query optimization)",
+    "MySQL performance tuning (indexes, query optimization)",
+    "Redis caching strategies",
+    "Observability: Prometheus",
+    "Observability: Grafana",
+    "Observability: structured logging",
+    "Observability: distributed tracing",
+    "AWS (EC2, S3, IAM, SQS/SNS)",
+    "Testing: JUnit",
+    "Testing: Mockito",
+    "Integration/contract testing",
+    "CI/CD pipelines (GitHub Actions/Jenkins)",
+    "Security fundamentals (OAuth2/JWT, least-privilege, secrets management)",
+    "Performance and reliability engineering (SLOs/SLAs, retry/backoff, circuit breakers)"
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect \u2013 Associate (SAA-C03) (Issued: Nov 2022, Expires: Nov 2025)",
+    "Certified Kubernetes Administrator (CKA) (Issued: Mar 2023, Expires: Mar 2026)"
+  ],
+  "location": "Washington, DC"
+}

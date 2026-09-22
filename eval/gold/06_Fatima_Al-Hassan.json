@@ -1,0 +1,67 @@
+{
+  "name": "Fatima Al-Hassan",
+  "emails": [
+    "fatima.alhassan@email.com"
+  ],
+  "phones": [
+    "+1 (206) 555-0147"
+  ],
+  "total_years_experience": 4,
+  "education": [
+    {
+      "institution": "Purdue University",
+      "degree": "B.S., Computer Science",
+      "year": "2018"
+    },
+    {
+      "institution": "Stanford University",
+      "degree": "M.S., Management Science & Engineering",
+      "year": "2020"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Amazon",
+      "title": "Senior Product Manager, Seller & Ads Platform",
+      "start": "08/2021",
+      "end": "09/2024",
+      "summary": "Owned roadmap for seller-facing reporting and campaign optimization features for Amazon Ads; led discovery and translated insights into prioritized epics; implemented experimentation for bidding recommendations; partnered with Data Science/Applied ML on success metrics and dashboards; drove cross-functional launch planning for campaign insights and anomaly detection; managed product governance including backlog health, PR/BRD standards, and quarterly business reviews."
+    },
+    {
+      "company": "Atlassian",
+      "title": "Product Manager, Developer Tools (APIs & Integrations)",
+      "start": "07/2019",
+      "end": "07/2021",
+      "summary": "Owned Jira/Confluence developer integrations product focused on API reliability, auth flows, and onboarding; ran customer interviews to define requirements; launched documentation refresh and example gallery; partnered with Engineering/Security/Platform to add rate-limiting and request tracing; managed roadmap and stakeholder communications across Sales Engineering/Partner/Support; defined KPIs and ran usability tests to iterate on onboarding and error messaging."
+    },
+    {
+      "company": "Amazon",
+      "title": "Product Manager, Workforce Optimization (Program Management)",
+      "start": "06/2018",
+      "end": "06/2019",
+      "summary": "Supported product strategy and delivery for internal workforce tooling; streamlined scheduling workflows to reduce manual effort (~20%); partnered with ops leaders to identify bottlenecks and translate into product requirements; developed dashboards and operational metrics (forecast accuracy, staffing utilization, SLA adherence); coordinated phased rollouts with training materials, QA checklists, and feedback loops."
+    }
+  ],
+  "skills": [
+    "Product Strategy & Roadmapping",
+    "Customer Discovery & User Research",
+    "Metrics, Experimentation (A/B Testing, Holdouts)",
+    "Product Requirements (PRDs), User Stories, and Technical Specs",
+    "Stakeholder Management & Executive Communication",
+    "Go-to-Market Planning",
+    "Analytics & KPI Design (SQL, Looker/Tableau concepts)",
+    "API Product Management",
+    "Platform Integrations & Authentication Flows",
+    "Data-driven Decision Making",
+    "Agile/Scrum Delivery & Backlog Management",
+    "Risk Management & Launch Planning",
+    "Cross-functional Leadership (Eng/Design/Data/Security)",
+    "Operational Excellence (SLA, Reliability, Monitoring)",
+    "Requirements Prioritization (RICE/WSJF)"
+  ],
+  "certifications": [
+    "Pragmatic Institute \u2014 Certified Product Manager (CPM) (Issued: 03/2022)",
+    "Amazon Web Services (AWS) \u2014 AWS Certified Solutions Architect \u2013 Associate (Issued: 11/2023)"
+  ],
+  "location": "Seattle, WA"
+}

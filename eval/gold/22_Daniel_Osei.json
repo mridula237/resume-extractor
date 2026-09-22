@@ -1,0 +1,81 @@
+{
+  "name": "Daniel Osei",
+  "emails": [
+    "daniel.osei@gmail.com"
+  ],
+  "phones": [
+    "+1 (555) 013-2048"
+  ],
+  "total_years_experience": 4,
+  "education": [
+    {
+      "institution": "University of California, Berkeley",
+      "degree": "M.S. in Computer Science (Machine Learning Focus)",
+      "year": "2018"
+    },
+    {
+      "institution": "University of Ghana",
+      "degree": "B.S. in Statistics",
+      "year": "2016"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Redwood Analytics (Series B)",
+      "title": "Machine Learning Engineer",
+      "start": "Mar 2021",
+      "end": "Present",
+      "summary": "Built and deployed ML models for recommendation and ranking using Python, PyTorch, and feature engineering pipelines; improved click-through rate by 12% over two quarters. Designed training/evaluation workflows with experiment tracking and automated validation; reduced iteration cycle time ~30%. Implemented batch and near-real-time inference services (REST/gRPC) with model monitoring for drift/latency/quality. Partnered with data engineering to productionize datasets in cloud storage/warehouses; improved data freshness and reduced training failures. Used SHAP/feature importance for model explainability."
+    },
+    {
+      "company": "BlueRiver Technologies",
+      "title": "Machine Learning Engineer",
+      "start": "Aug 2019",
+      "end": "Feb 2021",
+      "summary": "Developed predictive models for demand forecasting and anomaly detection; achieved 15\u201320% MAE reduction vs baseline. Built ETL pipelines and automated preprocessing for training/inference consistency. Created unit/integration tests for model pipelines and implemented CI checks. Tuned hyperparameters via cross-validation, calibration, and error analysis to improve performance."
+    },
+    {
+      "company": "Harbor Systems",
+      "title": "Data Analyst / ML Intern (Entry)",
+      "start": "Jun 2018",
+      "end": "Jul 2019",
+      "summary": "Supported data cleaning, feature creation, and exploratory analysis for customer behavior modeling. Built prototype models in Python and presented results to engineering/operations. Supported reporting dashboards and validated data quality metrics."
+    }
+  ],
+  "skills": [
+    "Python",
+    "SQL",
+    "Bash",
+    "PyTorch",
+    "scikit-learn",
+    "LightGBM",
+    "XGBoost",
+    "Pandas",
+    "NumPy",
+    "Airflow",
+    "Spark (basic)",
+    "data quality validation",
+    "Docker",
+    "REST/gRPC APIs",
+    "CI/CD",
+    "model versioning",
+    "experiment tracking",
+    "cross-validation",
+    "hyperparameter tuning",
+    "calibration",
+    "error analysis",
+    "drift detection",
+    "performance metrics",
+    "latency/throughput monitoring",
+    "AWS (S3, EC2, Lambda, SageMaker\u2014basic/managed services)",
+    "Git",
+    "MLflow or similar tracking tools",
+    "JIRA",
+    "Confluence"
+  ],
+  "certifications": [
+    "AWS Certified Machine Learning \u2013 Specialty (2023)",
+    "Google Professional Certificate: Machine Learning (2020) (or equivalent completed coursework)"
+  ],
+  "location": "San Francisco, CA"
+}

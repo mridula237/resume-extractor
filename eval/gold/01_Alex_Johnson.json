@@ -1,0 +1,58 @@
+{
+  "name": "Alex Johnson",
+  "emails": [
+    "alex.johnson@email.com"
+  ],
+  "phones": [
+    "+1 (206) 555-0187"
+  ],
+  "total_years_experience": 5,
+  "education": [
+    {
+      "institution": "Carnegie Mellon University",
+      "degree": "Master of Science, Data Science",
+      "year": "2019"
+    },
+    {
+      "institution": "Purdue University",
+      "degree": "Bachelor of Science, Statistics",
+      "year": "2017"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Shopify",
+      "title": "Data Scientist, Applied Machine Learning",
+      "start": "Jun 2022",
+      "end": "Present",
+      "summary": "Built and deployed ranking models for home feed and product recommendations; led experimentation program; developed ETL and feature pipelines across Snowflake and internal stores; partnered with engineering to productionize models and add monitoring (drift, calibration, data quality)."
+    },
+    {
+      "company": "Apple",
+      "title": "Data Scientist, Machine Learning (Personalization)",
+      "start": "Aug 2019",
+      "end": "May 2022",
+      "summary": "Designed personalization models for app engagement and content discovery; implemented causal analysis for feature rollouts; created end-to-end forecasting workflows for demand and inventory; collaborated cross-functionally to deliver reproducible notebooks and documentation."
+    }
+  ],
+  "skills": [
+    "Machine Learning (ranking, classification, regression)",
+    "Time Series Forecasting",
+    "Causal Inference (DiD, propensity scoring, uplift/CUPED)",
+    "Experimentation & A/B Testing (sequential testing, power analysis)",
+    "Python (pandas, NumPy, scikit-learn, PyTorch)",
+    "SQL (Snowflake/BigQuery-style analytics, query optimization)",
+    "Feature Engineering & Model Monitoring (drift, calibration)",
+    "Data Pipelines (ETL, orchestration concepts)",
+    "Statistical Modeling & Optimization",
+    "Natural Language Processing (embeddings, text classification)",
+    "AWS/GCP fundamentals (S3, IAM concepts, batch processing)",
+    "Git, code reviews, reproducible research",
+    "Model Deployment Concepts (batch scoring, inference services)"
+  ],
+  "certifications": [
+    "Microsoft Certified: Azure Data Scientist Associate (DP-100)",
+    "Google Professional Certificate: Machine Learning (ML) (TensorFlow)"
+  ],
+  "location": "Seattle, WA"
+}
