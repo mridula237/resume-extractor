@@ -1,0 +1,21 @@
+{
+  "stem": "15_Grace_Liu",
+  "model": "claude-sonnet-4-6",
+  "scores": {
+    "name": 1.0,
+    "emails": 1.0,
+    "phones": 1.0,
+    "location": 1.0,
+    "total_years_experience": 0.0,
+    "education": 0.3333333333333333,
+    "employment": 0.0,
+    "skills": 1.0,
+    "certifications": 0.0
+  },
+  "avg_score": 0.5925925925925926,
+  "in": 2280,
+  "out": 654,
+  "latency": 10.401273625000613,
+  "cost": 0.016649999999999998,
+  "error": null
+}

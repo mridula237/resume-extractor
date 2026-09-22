@@ -1,0 +1,21 @@
+{
+  "stem": "26_Nathan_Clarke",
+  "model": "claude-haiku-4-5-20251001",
+  "scores": {
+    "name": 1.0,
+    "emails": 1.0,
+    "phones": 1.0,
+    "location": 0.0,
+    "total_years_experience": 0.0,
+    "education": 1.0,
+    "employment": 0.0,
+    "skills": 0.45454545454545453,
+    "certifications": 0.0
+  },
+  "avg_score": 0.4949494949494949,
+  "in": 2324,
+  "out": 716,
+  "latency": 3.8754891249991488,
+  "cost": 0.0059039999999999995,
+  "error": null
+}

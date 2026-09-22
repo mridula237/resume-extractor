@@ -1,0 +1,21 @@
+{
+  "stem": "23_Mei_Wong",
+  "model": "claude-haiku-4-5-20251001",
+  "scores": {
+    "name": 1.0,
+    "emails": 1.0,
+    "phones": 1.0,
+    "location": 1.0,
+    "total_years_experience": 0.0,
+    "education": 1.0,
+    "employment": 0.0,
+    "skills": 0.5,
+    "certifications": 0.0
+  },
+  "avg_score": 0.6111111111111112,
+  "in": 2122,
+  "out": 564,
+  "latency": 3.2359054580010707,
+  "cost": 0.004942,
+  "error": null
+}

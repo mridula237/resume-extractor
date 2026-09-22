@@ -1,0 +1,21 @@
+{
+  "stem": "23_Mei_Wong",
+  "model": "gpt-5.4-nano",
+  "scores": {
+    "name": 1.0,
+    "emails": 1.0,
+    "phones": 1.0,
+    "location": 1.0,
+    "total_years_experience": 1.0,
+    "education": 1.0,
+    "employment": 0.0,
+    "skills": 0.6,
+    "certifications": 0.0
+  },
+  "avg_score": 0.7333333333333333,
+  "in": 1148,
+  "out": 525,
+  "latency": 3.7750857080027345,
+  "cost": 0.0008858499999999999,
+  "error": null
+}

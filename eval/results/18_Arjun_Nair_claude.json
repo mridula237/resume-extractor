@@ -1,0 +1,21 @@
+{
+  "stem": "18_Arjun_Nair",
+  "model": "claude-haiku-4-5-20251001",
+  "scores": {
+    "name": 1.0,
+    "emails": 1.0,
+    "phones": 1.0,
+    "location": 1.0,
+    "total_years_experience": 0.0,
+    "education": 0.0,
+    "employment": 0.0,
+    "skills": 0.575,
+    "certifications": 0.0
+  },
+  "avg_score": 0.5083333333333333,
+  "in": 2340,
+  "out": 807,
+  "latency": 4.289558500007843,
+  "cost": 0.0063750000000000005,
+  "error": null
+}

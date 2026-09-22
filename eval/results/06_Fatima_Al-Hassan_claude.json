@@ -1,0 +1,21 @@
+{
+  "stem": "06_Fatima_Al-Hassan",
+  "model": "claude-sonnet-4-6",
+  "scores": {
+    "name": 1.0,
+    "emails": 1.0,
+    "phones": 1.0,
+    "location": 1.0,
+    "total_years_experience": 0.0,
+    "education": 1.0,
+    "employment": 0.0,
+    "skills": 0.875,
+    "certifications": 0.0
+  },
+  "avg_score": 0.6527777777777778,
+  "in": 2433,
+  "out": 905,
+  "latency": 11.427766708999116,
+  "cost": 0.020874,
+  "error": null
+}

@@ -1,0 +1,21 @@
+{
+  "stem": "25_Amara_Diallo",
+  "model": "claude-haiku-4-5-20251001",
+  "scores": {
+    "name": 1.0,
+    "emails": 1.0,
+    "phones": 1.0,
+    "location": 0.0,
+    "total_years_experience": 0.0,
+    "education": 0.0,
+    "employment": 0.0,
+    "skills": 0.11764705882352941,
+    "certifications": 0.0
+  },
+  "avg_score": 0.3464052287581699,
+  "in": 2237,
+  "out": 719,
+  "latency": 3.6827036250033416,
+  "cost": 0.005832,
+  "error": null
+}

@@ -1,0 +1,21 @@
+{
+  "stem": "21_Isabella_Rossi",
+  "model": "claude-haiku-4-5-20251001",
+  "scores": {
+    "name": 1.0,
+    "emails": 1.0,
+    "phones": 1.0,
+    "location": 1.0,
+    "total_years_experience": 0.0,
+    "education": 1.0,
+    "employment": 0.0,
+    "skills": 0.6190476190476191,
+    "certifications": 1.0
+  },
+  "avg_score": 0.7354497354497354,
+  "in": 2243,
+  "out": 745,
+  "latency": 4.113871207999182,
+  "cost": 0.005968,
+  "error": null
+}

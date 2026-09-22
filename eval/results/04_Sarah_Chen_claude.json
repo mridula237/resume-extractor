@@ -1,0 +1,21 @@
+{
+  "stem": "04_Sarah_Chen",
+  "model": "claude-sonnet-4-6",
+  "scores": {
+    "name": 1.0,
+    "emails": 1.0,
+    "phones": 1.0,
+    "location": 1.0,
+    "total_years_experience": 0.0,
+    "education": 0.0,
+    "employment": 0.0,
+    "skills": 0.875,
+    "certifications": 1.0
+  },
+  "avg_score": 0.6527777777777778,
+  "in": 2330,
+  "out": 745,
+  "latency": 7.949556874998962,
+  "cost": 0.018165,
+  "error": null
+}

@@ -1,0 +1,21 @@
+{
+  "stem": "16_Omar_Abdullah",
+  "model": "gpt-5.4-nano",
+  "scores": {
+    "name": 1.0,
+    "emails": 1.0,
+    "phones": 1.0,
+    "location": 1.0,
+    "total_years_experience": 1.0,
+    "education": 1.0,
+    "employment": 0.0,
+    "skills": 0.3617021276595745,
+    "certifications": 1.0
+  },
+  "avg_score": 0.8179669030732861,
+  "in": 1371,
+  "out": 522,
+  "latency": 4.088955209001142,
+  "cost": 0.0009266999999999999,
+  "error": null
+}

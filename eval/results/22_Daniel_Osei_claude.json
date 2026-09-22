@@ -1,0 +1,21 @@
+{
+  "stem": "22_Daniel_Osei",
+  "model": "claude-haiku-4-5-20251001",
+  "scores": {
+    "name": 1.0,
+    "emails": 1.0,
+    "phones": 1.0,
+    "location": 1.0,
+    "total_years_experience": 0.0,
+    "education": 1.0,
+    "employment": 0.0,
+    "skills": 0.6285714285714286,
+    "certifications": 0.0
+  },
+  "avg_score": 0.6253968253968254,
+  "in": 2203,
+  "out": 756,
+  "latency": 3.6753473749995464,
+  "cost": 0.0059830000000000005,
+  "error": null
+}

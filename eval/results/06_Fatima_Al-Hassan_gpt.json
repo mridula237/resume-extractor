@@ -1,0 +1,21 @@
+{
+  "stem": "06_Fatima_Al-Hassan",
+  "model": "gpt-5.4-nano",
+  "scores": {
+    "name": 1.0,
+    "emails": 1.0,
+    "phones": 1.0,
+    "location": 1.0,
+    "total_years_experience": 0.0,
+    "education": 1.0,
+    "employment": 0.0,
+    "skills": 1.0,
+    "certifications": 0.3333333333333333
+  },
+  "avg_score": 0.7037037037037037,
+  "in": 1429,
+  "out": 497,
+  "latency": 3.6819499999983236,
+  "cost": 0.0009070500000000001,
+  "error": null
+}

@@ -9,7 +9,7 @@ from pypdf import PdfReader
 
 from schema import Resume
 
-CLAUDE_MODEL = "claude-sonnet-4-6"
+CLAUDE_MODEL = "claude-haiku-4-5-20251001"
 GPT_MODEL = "gpt-5.4-nano"
 
 claude = anthropic.Anthropic()

@@ -1,0 +1,21 @@
+{
+  "stem": "25_Amara_Diallo",
+  "model": "gpt-5.4-nano",
+  "scores": {
+    "name": 1.0,
+    "emails": 1.0,
+    "phones": 1.0,
+    "location": 1.0,
+    "total_years_experience": 0.0,
+    "education": 0.0,
+    "employment": 0.0,
+    "skills": 0.21052631578947367,
+    "certifications": 0.0
+  },
+  "avg_score": 0.4678362573099415,
+  "in": 1246,
+  "out": 473,
+  "latency": 3.208418582995364,
+  "cost": 0.00084045,
+  "error": null
+}

@@ -1,0 +1,21 @@
+{
+  "stem": "22_Daniel_Osei",
+  "model": "gpt-5.4-nano",
+  "scores": {
+    "name": 1.0,
+    "emails": 1.0,
+    "phones": 1.0,
+    "location": 1.0,
+    "total_years_experience": 1.0,
+    "education": 1.0,
+    "employment": 0.0,
+    "skills": 0.9333333333333333,
+    "certifications": 0.3333333333333333
+  },
+  "avg_score": 0.8074074074074074,
+  "in": 1231,
+  "out": 473,
+  "latency": 3.2347462910038303,
+  "cost": 0.00083745,
+  "error": null
+}

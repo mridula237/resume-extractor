@@ -1,0 +1,21 @@
+{
+  "stem": "28_Lucas_Dubois",
+  "model": "claude-haiku-4-5-20251001",
+  "scores": {
+    "name": 0.0,
+    "emails": 1.0,
+    "phones": 1.0,
+    "location": 0.0,
+    "total_years_experience": 0.0,
+    "education": 1.0,
+    "employment": 0.0,
+    "skills": 0.5952380952380952,
+    "certifications": 0.0
+  },
+  "avg_score": 0.3994708994708995,
+  "in": 2327,
+  "out": 799,
+  "latency": 4.2396917500009295,
+  "cost": 0.006322,
+  "error": null
+}

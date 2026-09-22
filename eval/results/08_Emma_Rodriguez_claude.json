@@ -1,0 +1,21 @@
+{
+  "stem": "08_Emma_Rodriguez",
+  "model": "claude-sonnet-4-6",
+  "scores": {
+    "name": 1.0,
+    "emails": 1.0,
+    "phones": 1.0,
+    "location": 1.0,
+    "total_years_experience": 0.0,
+    "education": 1.0,
+    "employment": 0.0,
+    "skills": 1.0,
+    "certifications": 0.0
+  },
+  "avg_score": 0.6666666666666666,
+  "in": 2287,
+  "out": 729,
+  "latency": 7.697565707996546,
+  "cost": 0.017796,
+  "error": null
+}

@@ -1,0 +1,21 @@
+{
+  "stem": "21_Isabella_Rossi",
+  "model": "gpt-5.4-nano",
+  "scores": {
+    "name": 1.0,
+    "emails": 1.0,
+    "phones": 1.0,
+    "location": 1.0,
+    "total_years_experience": 1.0,
+    "education": 1.0,
+    "employment": 0.0,
+    "skills": 0.5121951219512195,
+    "certifications": 1.0
+  },
+  "avg_score": 0.8346883468834688,
+  "in": 1247,
+  "out": 484,
+  "latency": 2.9663654579999275,
+  "cost": 0.0008544,
+  "error": null
+}

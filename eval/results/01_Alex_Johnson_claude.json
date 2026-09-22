@@ -1,0 +1,21 @@
+{
+  "stem": "01_Alex_Johnson",
+  "model": "claude-sonnet-4-6",
+  "scores": {
+    "name": 1.0,
+    "emails": 1.0,
+    "phones": 1.0,
+    "location": 1.0,
+    "total_years_experience": 0.0,
+    "education": 0.0,
+    "employment": 0.0,
+    "skills": 0.8571428571428571,
+    "certifications": 0.0
+  },
+  "avg_score": 0.5396825396825397,
+  "in": 2191,
+  "out": 678,
+  "latency": 10.379816749999009,
+  "cost": 0.016743,
+  "error": null
+}

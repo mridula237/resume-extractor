@@ -1,0 +1,21 @@
+{
+  "stem": "30_Sean_Murphy",
+  "model": "claude-haiku-4-5-20251001",
+  "scores": {
+    "name": 1.0,
+    "emails": 1.0,
+    "phones": 1.0,
+    "location": 0.0,
+    "total_years_experience": 0.0,
+    "education": 1.0,
+    "employment": 0.0,
+    "skills": 0.896551724137931,
+    "certifications": 1.0
+  },
+  "avg_score": 0.6551724137931034,
+  "in": 2041,
+  "out": 658,
+  "latency": 3.3718078329984564,
+  "cost": 0.005330999999999999,
+  "error": null
+}

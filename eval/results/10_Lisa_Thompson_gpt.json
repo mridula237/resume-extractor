@@ -1,0 +1,21 @@
+{
+  "stem": "10_Lisa_Thompson",
+  "model": "gpt-5.4-nano",
+  "scores": {
+    "name": 1.0,
+    "emails": 1.0,
+    "phones": 1.0,
+    "location": 1.0,
+    "total_years_experience": 0.0,
+    "education": 1.0,
+    "employment": 0.0,
+    "skills": 0.3333333333333333,
+    "certifications": 0.0
+  },
+  "avg_score": 0.5925925925925926,
+  "in": 1430,
+  "out": 501,
+  "latency": 3.681658792003873,
+  "cost": 0.0009122500000000001,
+  "error": null
+}
