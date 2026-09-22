@@ -1,6 +1,6 @@
 # Resume Extractor
 
-A structured data extraction service that ingests resume PDFs and returns clean JSON conforming to a schema. Built as a demonstration of LLM-powered document parsing with two model backends.
+A structured data extraction service that ingests resume PDFs (including scanned ones) and returns clean JSON conforming to a schema. Supports two model backends: Claude and GPT.
 
 ## Schema (13 fields)
 - `name`, `emails`, `phones`, `location`
@@ -13,31 +13,42 @@ A structured data extraction service that ingests resume PDFs and returns clean 
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
+brew install tesseract poppler   # for OCR on scanned PDFs
 export ANTHROPIC_API_KEY=...
 export OPENAI_API_KEY=...
 ```
 
 ## CLI Usage
 ```bash
-# Extract with Claude (tool use / structured output)
-python extract.py path/to/resume.pdf --model claude
-
-# Extract with GPT (structured output)
+# Extract with GPT
 python extract.py path/to/resume.pdf --model gpt
 
-# Use prompt caching (saves cost on repeated system prompt)
+# Extract with Claude
+python extract.py path/to/resume.pdf --model claude
+
+# Add per-field confidence scores
+python extract.py path/to/resume.pdf --model gpt --confidence
+
+# Use prompt caching
 python extract.py path/to/resume.pdf --model claude --cache
 ```
 
 ## API
 ```bash
 uvicorn api:app --reload
-# POST /extract?model=claude|gpt
-curl -X POST "http://localhost:8000/extract?model=gpt" \
+
+curl -X POST "http://localhost:8000/extract?model=gpt&confidence=true" \
   -F "file=@resume.pdf"
 ```
 
-Interactive docs at http://localhost:8000/docs
+Interactive docs: http://localhost:8000/docs  
+Live API: https://resume-extractor-2nol.onrender.com/docs
+
+## Streamlit UI
+```bash
+streamlit run app.py
+```
+Opens at http://localhost:8501. Upload a PDF, pick a model, get structured JSON with confidence scores.
 
 ## Docker
 ```bash
@@ -71,21 +82,29 @@ docker run -p 8000:8000 \
 
 **GPT-5.4 nano is the better choice:** 11% higher accuracy, 2× faster, and 14× cheaper.
 
-**Known limitations of the eval:**
-- Employment shows 0% for both models because the Jaccard scorer penalises minor wording differences in summaries. Manual review shows all 3 jobs are correctly extracted.
+**Known limitations:**
+- Employment shows 0% for both models due to Jaccard scoring penalising minor wording differences in summaries. Manual review confirms all jobs are correctly extracted.
 - `total_years_experience` is hard to score automatically since models estimate differently from the same dates.
-- Eval set is synthetic (GPT-generated resumes converted to PDF), which likely inflates GPT's scores.
+- Eval set is synthetic (GPT-generated resumes converted to PDF).
+
+## Stretch goals
+- **OCR for scanned PDFs** — falls back to Tesseract when text extraction returns < 100 chars
+- **Confidence score per field** — `--confidence` flag, powered by GPT
+- **Deployed to Render** — https://resume-extractor-2nol.onrender.com/docs
+- **Streamlit UI** — `streamlit run app.py`
 
 ## Project structure
 ```
-extract.py       CLI + core extraction logic (Claude + GPT)
-api.py           FastAPI endpoint POST /extract
-schema.py        Pydantic schema (Resume, Education, Employment)
-eval.py          Evaluation harness (accuracy, latency, cost)
-Dockerfile       Container definition
+extract.py         CLI + core extraction logic (Claude + GPT + OCR fallback)
+api.py             FastAPI endpoint POST /extract
+app.py             Streamlit UI
+schema.py          Pydantic schema (Resume, Education, Employment)
+eval.py            Evaluation harness (accuracy, latency, cost)
+Dockerfile         Container definition
+render.yaml        Render deployment config
 eval/
-  resumes/       30 synthetic resume PDFs
-  gold/          Gold-standard JSON labels
-  results/       Per-resume per-model results (cached)
-  report.md      Full evaluation report
+  resumes/         30 synthetic resume PDFs
+  gold/            Gold-standard JSON labels
+  results/         Per-resume per-model results (cached)
+  report.md        Full evaluation report
 ```

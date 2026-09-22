@@ -7,3 +7,5 @@ pypdf
 pydantic
 streamlit
 fpdf2
+pytesseract
+pdf2image

@@ -28,12 +28,25 @@ IMPORTANT:
 
 
 def read_file(path: str) -> str:
-    if path.endswith(".pdf"):
-        reader = PdfReader(path)
-        return "\n".join(page.extract_text() for page in reader.pages)
-    else:
+    if not path.endswith(".pdf"):
         with open(path, "r", encoding="utf-8") as f:
             return f.read()
+
+    # try normal text extraction first
+    reader = PdfReader(path)
+    text = "\n".join(page.extract_text() or "" for page in reader.pages).strip()
+
+    # if text is too short, fall back to OCR
+    if len(text) < 100:
+        try:
+            from pdf2image import convert_from_path
+            import pytesseract
+            images = convert_from_path(path)
+            text = "\n".join(pytesseract.image_to_string(img) for img in images)
+        except Exception as e:
+            raise ValueError(f"PDF text extraction failed and OCR also failed: {e}")
+
+    return text
 
 
 def extract_claude(text: str, cache: bool = False) -> dict:
